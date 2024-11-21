@@ -1,0 +1,692 @@
+[0.000000] (-) TimerEvent: {}
+[0.000589] (joint_publisher) JobQueued: {'identifier': 'joint_publisher', 'dependencies': OrderedDict()}
+[0.001153] (roarm) JobQueued: {'identifier': 'roarm', 'dependencies': OrderedDict()}
+[0.001439] (serial_ctrl) JobQueued: {'identifier': 'serial_ctrl', 'dependencies': OrderedDict()}
+[0.001660] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.001748] (unitree_lidar_sdk) JobQueued: {'identifier': 'unitree_lidar_sdk', 'dependencies': OrderedDict()}
+[0.001897] (joint_publisher) JobStarted: {'identifier': 'joint_publisher'}
+[0.018819] (roarm) JobStarted: {'identifier': 'roarm'}
+[0.024380] (serial_ctrl) JobStarted: {'identifier': 'serial_ctrl'}
+[0.032657] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.037871] (unitree_lidar_sdk) JobStarted: {'identifier': 'unitree_lidar_sdk'}
+[0.099407] (-) TimerEvent: {}
+[0.199938] (-) TimerEvent: {}
+[0.300525] (-) TimerEvent: {}
+[0.401059] (-) TimerEvent: {}
+[0.501542] (-) TimerEvent: {}
+[0.560276] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'cmake'}
+[0.560997] (roarm) Command: {'cmd': ['/usr/bin/cmake', '/home/bingflame/firerush/src/roarm', '-DCMAKE_INSTALL_PREFIX=/home/bingflame/firerush/install/roarm'], 'cwd': '/home/bingflame/firerush/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/roarm'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.601687] (-) TimerEvent: {}
+[0.702307] (-) TimerEvent: {}
+[0.802930] (-) TimerEvent: {}
+[0.903584] (-) TimerEvent: {}
+[1.004200] (-) TimerEvent: {}
+[1.097755] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[1.098332] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/bingflame/firerush/src/unitree_lidar_ros2/src/unitree_lidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/bingflame/firerush/install/unitree_lidar_ros2'], 'cwd': '/home/bingflame/firerush/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.104373] (-) TimerEvent: {}
+[1.106332] (roarm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.107484] (roarm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.108223] (roarm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.109371] (roarm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.109837] (roarm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.110066] (roarm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.110390] (roarm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.112253] (roarm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.113211] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'cmake'}
+[1.113282] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/bingflame/firerush/src/unitree_lidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/bingflame/firerush/install/unitree_lidar_sdk'], 'cwd': '/home/bingflame/firerush/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/unitree_lidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[1.204564] (-) TimerEvent: {}
+[1.206682] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.221176] (unitree_lidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.256373] (roarm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.269605] (roarm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.270148] (roarm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.271019] (roarm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.276480] (roarm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.304733] (-) TimerEvent: {}
+[1.314377] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.329252] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.335400] (unitree_lidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.350316] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.404920] (-) TimerEvent: {}
+[1.462497] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.476699] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.477760] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.478611] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.482683] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.485518] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.499760] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.500686] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.502097] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.505016] (-) TimerEvent: {}
+[1.509520] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.605236] (-) TimerEvent: {}
+[1.607144] (roarm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.651292] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.657376] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.658116] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.659097] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.663638] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.664452] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.680827] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.681354] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.682350] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.684669] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.696052] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[1.697724] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/bingflame/firerush/build/unitree_lidar_sdk\n'}
+[1.707501] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[1.709905] (-) TimerEvent: {}
+[1.710251] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'build'}
+[1.710321] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/firerush/build/unitree_lidar_sdk', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/firerush/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/unitree_lidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[1.803046] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/example_lidar_udp.dir/examples/example_lidar_udp.cpp.o\x1b[0m\n'}
+[1.810104] (-) TimerEvent: {}
+[1.820550] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o\x1b[0m\n'}
+[1.823081] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/unilidar_publisher_udp.dir/examples/unilidar_publisher_udp.cpp.o\x1b[0m\n'}
+[1.862997] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unilidar_subscriber_udp.dir/examples/unilidar_subscriber_udp.cpp.o\x1b[0m\n'}
+[1.866113] (roarm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.872289] (serial_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_ctrl', 'build', '--build-base', '/home/bingflame/firerush/build/serial_ctrl/build', 'install', '--record', '/home/bingflame/firerush/build/serial_ctrl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bingflame/firerush/src/serial_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bingflame', 'SSH_CLIENT': '127.0.0.1 38150 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/', 'MOTD_SHOWN': 'pam', 'HOME': '/home/bingflame', 'OLDPWD': '/home/bingflame/xiugaihou', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bingflame', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/bingflame/firerush/build/serial_ctrl', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '127.0.0.1 38150 127.0.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bingflame/firerush/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.892318] (joint_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joint_publisher', 'build', '--build-base', '/home/bingflame/firerush/build/joint_publisher/build', 'install', '--record', '/home/bingflame/firerush/build/joint_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bingflame/firerush/src/joint_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bingflame', 'SSH_CLIENT': '127.0.0.1 38150 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/', 'MOTD_SHOWN': 'pam', 'HOME': '/home/bingflame', 'OLDPWD': '/home/bingflame/xiugaihou', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bingflame', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/bingflame/firerush/build/joint_publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '127.0.0.1 38150 127.0.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bingflame/firerush/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.910274] (-) TimerEvent: {}
+[2.010973] (-) TimerEvent: {}
+[2.019293] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.104318] (roarm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.111090] (-) TimerEvent: {}
+[2.116300] (roarm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.118001] (roarm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.122303] (roarm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.132453] (roarm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.139061] (roarm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.140821] (roarm) StdoutLine: {'line': b'-- Build files have been written to: /home/bingflame/firerush/build/roarm\n'}
+[2.175442] (roarm) CommandEnded: {'returncode': 0}
+[2.176394] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'build'}
+[2.176470] (roarm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/firerush/build/roarm', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/firerush/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/roarm'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.209034] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.211221] (-) TimerEvent: {}
+[2.311847] (-) TimerEvent: {}
+[2.330931] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.342078] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.363079] (roarm) CommandEnded: {'returncode': 0}
+[2.371713] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.406001] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.412021] (-) TimerEvent: {}
+[2.421273] (serial_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[2.423021] (serial_ctrl) StdoutLine: {'line': b'creating ../../build/serial_ctrl/serial_ctrl.egg-info\n'}
+[2.424224] (serial_ctrl) StdoutLine: {'line': b'writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO\n'}
+[2.425621] (serial_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt\n'}
+[2.426590] (serial_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt\n'}
+[2.427465] (serial_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt\n'}
+[2.428102] (serial_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt\n'}
+[2.429097] (serial_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'\n"}
+[2.435149] (serial_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'\n"}
+[2.437581] (serial_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'\n"}
+[2.438568] (serial_ctrl) StdoutLine: {'line': b'running build\n'}
+[2.439079] (serial_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[2.439939] (serial_ctrl) StdoutLine: {'line': b'creating /home/bingflame/firerush/build/serial_ctrl/build\n'}
+[2.440546] (serial_ctrl) StdoutLine: {'line': b'creating /home/bingflame/firerush/build/serial_ctrl/build/lib\n'}
+[2.441077] (serial_ctrl) StdoutLine: {'line': b'creating /home/bingflame/firerush/build/serial_ctrl/build/lib/serial_ctrl\n'}
+[2.441737] (serial_ctrl) StdoutLine: {'line': b'copying serial_ctrl/serial_ctrl_py.py -> /home/bingflame/firerush/build/serial_ctrl/build/lib/serial_ctrl\n'}
+[2.442579] (serial_ctrl) StdoutLine: {'line': b'copying serial_ctrl/__init__.py -> /home/bingflame/firerush/build/serial_ctrl/build/lib/serial_ctrl\n'}
+[2.443646] (serial_ctrl) StdoutLine: {'line': b'running install\n'}
+[2.445096] (serial_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[2.447506] (serial_ctrl) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl\n'}
+[2.448559] (serial_ctrl) StdoutLine: {'line': b'copying /home/bingflame/firerush/build/serial_ctrl/build/lib/serial_ctrl/serial_ctrl_py.py -> /home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl\n'}
+[2.449171] (serial_ctrl) StdoutLine: {'line': b'copying /home/bingflame/firerush/build/serial_ctrl/build/lib/serial_ctrl/__init__.py -> /home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl\n'}
+[2.451186] (serial_ctrl) StdoutLine: {'line': b'byte-compiling /home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl/serial_ctrl_py.py to serial_ctrl_py.cpython-310.pyc\n'}
+[2.454216] (serial_ctrl) StdoutLine: {'line': b'byte-compiling /home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl/__init__.py to __init__.cpython-310.pyc\n'}
+[2.455442] (serial_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[2.456229] (serial_ctrl) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/serial_ctrl/share/ament_index\n'}
+[2.456866] (serial_ctrl) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/serial_ctrl/share/ament_index/resource_index\n'}
+[2.457453] (serial_ctrl) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/serial_ctrl/share/ament_index/resource_index/packages\n'}
+[2.458150] (serial_ctrl) StdoutLine: {'line': b'copying resource/serial_ctrl -> /home/bingflame/firerush/install/serial_ctrl/share/ament_index/resource_index/packages\n'}
+[2.458988] (serial_ctrl) StdoutLine: {'line': b'copying package.xml -> /home/bingflame/firerush/install/serial_ctrl/share/serial_ctrl\n'}
+[2.459654] (serial_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.464781] (serial_ctrl) StdoutLine: {'line': b'Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info\n'}
+[2.467633] (serial_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[2.469310] (joint_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[2.471263] (joint_publisher) StdoutLine: {'line': b'creating ../../build/joint_publisher/joint_publisher.egg-info\n'}
+[2.471716] (joint_publisher) StdoutLine: {'line': b'writing ../../build/joint_publisher/joint_publisher.egg-info/PKG-INFO\n'}
+[2.472373] (joint_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/joint_publisher/joint_publisher.egg-info/dependency_links.txt\n'}
+[2.473260] (joint_publisher) StdoutLine: {'line': b'writing entry points to ../../build/joint_publisher/joint_publisher.egg-info/entry_points.txt\n'}
+[2.473637] (joint_publisher) StdoutLine: {'line': b'writing requirements to ../../build/joint_publisher/joint_publisher.egg-info/requires.txt\n'}
+[2.473810] (joint_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/joint_publisher/joint_publisher.egg-info/top_level.txt\n'}
+[2.474197] (joint_publisher) StdoutLine: {'line': b"writing manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'\n"}
+[2.478338] (joint_publisher) StdoutLine: {'line': b"reading manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'\n"}
+[2.479900] (joint_publisher) StdoutLine: {'line': b"writing manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'\n"}
+[2.480389] (joint_publisher) StdoutLine: {'line': b'running build\n'}
+[2.480600] (joint_publisher) StdoutLine: {'line': b'running build_py\n'}
+[2.480843] (joint_publisher) StdoutLine: {'line': b'creating /home/bingflame/firerush/build/joint_publisher/build\n'}
+[2.481025] (joint_publisher) StdoutLine: {'line': b'creating /home/bingflame/firerush/build/joint_publisher/build/lib\n'}
+[2.481167] (joint_publisher) StdoutLine: {'line': b'creating /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher\n'}
+[2.481386] (joint_publisher) StdoutLine: {'line': b'copying joint_publisher/joint_state_publisher.py -> /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher\n'}
+[2.481537] (joint_publisher) StdoutLine: {'line': b'copying joint_publisher/__init__.py -> /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher\n'}
+[2.481758] (joint_publisher) StdoutLine: {'line': b'running install\n'}
+[2.482466] (joint_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[2.484301] (joint_publisher) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher\n'}
+[2.485005] (joint_publisher) StdoutLine: {'line': b'copying /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher/joint_state_publisher.py -> /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher\n'}
+[2.485235] (joint_publisher) StdoutLine: {'line': b'copying /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher/__init__.py -> /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher\n'}
+[2.486197] (joint_publisher) StdoutLine: {'line': b'byte-compiling /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher/joint_state_publisher.py to joint_state_publisher.cpython-310.pyc\n'}
+[2.487101] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.487533] (joint_publisher) StdoutLine: {'line': b'byte-compiling /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[2.488085] (joint_publisher) StdoutLine: {'line': b'running install_data\n'}
+[2.488395] (joint_publisher) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/joint_publisher/share/ament_index\n'}
+[2.488637] (joint_publisher) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/joint_publisher/share/ament_index/resource_index\n'}
+[2.488952] (joint_publisher) StdoutLine: {'line': b'creating /home/bingflame/firerush/install/joint_publisher/share/ament_index/resource_index/packages\n'}
+[2.489115] (joint_publisher) StdoutLine: {'line': b'copying resource/joint_publisher -> /home/bingflame/firerush/install/joint_publisher/share/ament_index/resource_index/packages\n'}
+[2.489358] (joint_publisher) StdoutLine: {'line': b'copying package.xml -> /home/bingflame/firerush/install/joint_publisher/share/joint_publisher\n'}
+[2.489630] (joint_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.494430] (joint_publisher) StdoutLine: {'line': b'Copying ../../build/joint_publisher/joint_publisher.egg-info to /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher-0.0.0-py3.10.egg-info\n'}
+[2.496778] (joint_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[2.512209] (-) TimerEvent: {}
+[2.536950] (serial_ctrl) StdoutLine: {'line': b'Installing serial_ctrl script to /home/bingflame/firerush/install/serial_ctrl/lib/serial_ctrl\n'}
+[2.538709] (serial_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/bingflame/firerush/build/serial_ctrl/install.log'\n"}
+[2.547052] (joint_publisher) StdoutLine: {'line': b'Installing joint_state_publisher script to /home/bingflame/firerush/install/joint_publisher/lib/joint_publisher\n'}
+[2.548375] (joint_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/bingflame/firerush/build/joint_publisher/install.log'\n"}
+[2.588804] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'install'}
+[2.616097] (-) TimerEvent: {}
+[2.643602] (roarm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bingflame/firerush/build/roarm'], 'cwd': '/home/bingflame/firerush/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/roarm'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.658369] (joint_publisher) CommandEnded: {'returncode': 0}
+[2.660149] (roarm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.660876] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/config\n'}
+[2.661347] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/config/.gitkeep\n'}
+[2.661809] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/launch\n'}
+[2.662407] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/launch/roarm.launch.py\n'}
+[2.663354] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/maps\n'}
+[2.663707] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/maps/.gitkeep\n'}
+[2.665280] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes\n'}
+[2.666151] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/base.stl\n'}
+[2.666679] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.669489] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L4.stl\n'}
+[2.673926] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.684908] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L5_2_A.stl\n'}
+[2.686502] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L5_1_B.stl\n'}
+[2.689324] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L5_3_B.stl\n'}
+[2.690584] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L2.stl\n'}
+[2.692114] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L3.stl\n'}
+[2.708551] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L1.stl\n'}
+[2.713932] (joint_publisher) JobEnded: {'identifier': 'joint_publisher', 'rc': 0}
+[2.716213] (-) TimerEvent: {}
+[2.723559] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L5_3_A.stl\n'}
+[2.725129] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L5_2_B.stl\n'}
+[2.727031] (serial_ctrl) CommandEnded: {'returncode': 0}
+[2.727783] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/meshes/L5_1_A.stl\n'}
+[2.730789] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/models\n'}
+[2.732436] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/models/.gitkeep\n'}
+[2.733451] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/params\n'}
+[2.733856] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/params/.gitkeep\n'}
+[2.734697] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/rviz\n'}
+[2.735568] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz\n'}
+[2.736042] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/src\n'}
+[2.736447] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/src/.gitkeep\n'}
+[2.737146] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/urdf\n'}
+[2.737353] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/urdf/roarm.urdf\n'}
+[2.737665] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/worlds\n'}
+[2.737993] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/worlds/.gitkeep\n'}
+[2.738871] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm\n'}
+[2.740435] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm\n'}
+[2.747796] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/environment/ament_prefix_path.sh\n'}
+[2.748022] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/environment/ament_prefix_path.dsv\n'}
+[2.748177] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/environment/path.sh\n'}
+[2.748319] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/environment/path.dsv\n'}
+[2.748498] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/local_setup.bash\n'}
+[2.748629] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/local_setup.sh\n'}
+[2.748756] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/local_setup.zsh\n'}
+[2.748876] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/local_setup.dsv\n'}
+[2.748993] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/package.dsv\n'}
+[2.749111] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/ament_index/resource_index/packages/roarm\n'}
+[2.749226] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/cmake/roarmConfig.cmake\n'}
+[2.749342] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/cmake/roarmConfig-version.cmake\n'}
+[2.749456] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/roarm/share/roarm/package.xml\n'}
+[2.756152] (serial_ctrl) JobEnded: {'identifier': 'serial_ctrl', 'rc': 0}
+[2.758778] (roarm) CommandEnded: {'returncode': 0}
+[2.816384] (-) TimerEvent: {}
+[2.843024] (roarm) JobEnded: {'identifier': 'roarm', 'rc': 0}
+[2.881951] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.916608] (-) TimerEvent: {}
+[2.936383] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.016092] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.016590] (-) TimerEvent: {}
+[3.017640] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/example_lidar\x1b[0m\n'}
+[3.036373] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.068316] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/unilidar_subscriber_udp\x1b[0m\n'}
+[3.116826] (-) TimerEvent: {}
+[3.144967] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/example_lidar_udp\x1b[0m\n'}
+[3.195366] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.195885] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.196194] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 87%] Built target example_lidar\n'}
+[3.217029] (-) TimerEvent: {}
+[3.233432] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 87%] Built target unilidar_subscriber_udp\n'}
+[3.240066] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/unilidar_publisher_udp\x1b[0m\n'}
+[3.315599] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar_udp\n'}
+[3.317132] (-) TimerEvent: {}
+[3.339255] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.342937] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.402614] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target unilidar_publisher_udp\n'}
+[3.417301] (-) TimerEvent: {}
+[3.429493] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[3.485588] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.500293] (unitree_lidar_sdk) JobEnded: {'identifier': 'unitree_lidar_sdk', 'rc': 0}
+[3.517460] (-) TimerEvent: {}
+[3.547282] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.617582] (-) TimerEvent: {}
+[3.621167] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[3.640383] (unitree_lidar_ros2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[3.701914] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[3.702438] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.717712] (-) TimerEvent: {}
+[3.780446] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[3.802583] (unitree_lidar_ros2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[3.817816] (-) TimerEvent: {}
+[3.889880] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[3.890520] (unitree_lidar_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[3.917961] (-) TimerEvent: {}
+[4.018590] (-) TimerEvent: {}
+[4.119429] (-) TimerEvent: {}
+[4.220468] (-) TimerEvent: {}
+[4.321237] (-) TimerEvent: {}
+[4.421994] (-) TimerEvent: {}
+[4.522633] (-) TimerEvent: {}
+[4.623381] (-) TimerEvent: {}
+[4.724106] (-) TimerEvent: {}
+[4.824822] (-) TimerEvent: {}
+[4.925533] (-) TimerEvent: {}
+[5.026322] (-) TimerEvent: {}
+[5.127128] (-) TimerEvent: {}
+[5.227856] (-) TimerEvent: {}
+[5.328664] (-) TimerEvent: {}
+[5.429398] (-) TimerEvent: {}
+[5.530154] (-) TimerEvent: {}
+[5.631008] (-) TimerEvent: {}
+[5.731779] (-) TimerEvent: {}
+[5.832558] (-) TimerEvent: {}
+[5.933236] (-) TimerEvent: {}
+[5.984431] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.014817] (unitree_lidar_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[6.033335] (-) TimerEvent: {}
+[6.094472] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[6.100790] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.133483] (-) TimerEvent: {}
+[6.226158] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.233581] (-) TimerEvent: {}
+[6.334176] (-) TimerEvent: {}
+[6.434790] (-) TimerEvent: {}
+[6.522556] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.532862] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.534830] (-) TimerEvent: {}
+[6.543170] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.635006] (-) TimerEvent: {}
+[6.735558] (-) TimerEvent: {}
+[6.794695] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[6.835653] (-) TimerEvent: {}
+[6.936180] (-) TimerEvent: {}
+[7.036792] (-) TimerEvent: {}
+[7.052276] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.136933] (-) TimerEvent: {}
+[7.237512] (-) TimerEvent: {}
+[7.303990] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[7.305590] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[7.307256] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[7.308859] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[7.310514] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[7.312177] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[7.312945] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[7.313644] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[7.315301] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[7.317074] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[7.318826] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[7.320793] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[7.322634] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[7.324473] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[7.326193] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[7.327997] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[7.329740] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[7.331442] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[7.333316] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[7.334918] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[7.336442] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[7.337101] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[7.337547] (-) TimerEvent: {}
+[7.338507] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[7.340758] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[7.342546] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[7.345955] (unitree_lidar_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):\n'}
+[7.346270] (unitree_lidar_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[7.346416] (unitree_lidar_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[7.346541] (unitree_lidar_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[7.346662] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[7.346778] (unitree_lidar_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[7.346896] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[7.347046] (unitree_lidar_ros2) StderrLine: {'line': b'    /usr\n'}
+[7.347165] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[7.347279] (unitree_lidar_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[7.347393] (unitree_lidar_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.347507] (unitree_lidar_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[7.437710] (-) TimerEvent: {}
+[7.505267] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.537820] (-) TimerEvent: {}
+[7.607444] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[7.613749] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/bingflame/firerush/build/unitree_lidar_ros2\n'}
+[7.637941] (-) TimerEvent: {}
+[7.659331] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[7.661615] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'build'}
+[7.663153] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/firerush/build/unitree_lidar_ros2', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/firerush/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.738117] (-) TimerEvent: {}
+[7.774001] (unitree_lidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o\x1b[0m\n'}
+[7.838264] (-) TimerEvent: {}
+[7.938832] (-) TimerEvent: {}
+[8.039343] (-) TimerEvent: {}
+[8.139792] (-) TimerEvent: {}
+[8.240235] (-) TimerEvent: {}
+[8.340701] (-) TimerEvent: {}
+[8.441284] (-) TimerEvent: {}
+[8.541880] (-) TimerEvent: {}
+[8.642471] (-) TimerEvent: {}
+[8.742974] (-) TimerEvent: {}
+[8.843451] (-) TimerEvent: {}
+[8.943935] (-) TimerEvent: {}
+[9.044504] (-) TimerEvent: {}
+[9.145013] (-) TimerEvent: {}
+[9.245718] (-) TimerEvent: {}
+[9.346268] (-) TimerEvent: {}
+[9.446809] (-) TimerEvent: {}
+[9.547443] (-) TimerEvent: {}
+[9.647967] (-) TimerEvent: {}
+[9.748455] (-) TimerEvent: {}
+[9.848926] (-) TimerEvent: {}
+[9.949387] (-) TimerEvent: {}
+[10.049832] (-) TimerEvent: {}
+[10.150301] (-) TimerEvent: {}
+[10.250843] (-) TimerEvent: {}
+[10.351332] (-) TimerEvent: {}
+[10.451835] (-) TimerEvent: {}
+[10.552454] (-) TimerEvent: {}
+[10.652979] (-) TimerEvent: {}
+[10.753557] (-) TimerEvent: {}
+[10.854081] (-) TimerEvent: {}
+[10.954613] (-) TimerEvent: {}
+[11.055189] (-) TimerEvent: {}
+[11.155700] (-) TimerEvent: {}
+[11.256213] (-) TimerEvent: {}
+[11.356699] (-) TimerEvent: {}
+[11.457184] (-) TimerEvent: {}
+[11.557745] (-) TimerEvent: {}
+[11.658394] (-) TimerEvent: {}
+[11.758973] (-) TimerEvent: {}
+[11.859526] (-) TimerEvent: {}
+[11.960063] (-) TimerEvent: {}
+[12.060604] (-) TimerEvent: {}
+[12.161144] (-) TimerEvent: {}
+[12.261716] (-) TimerEvent: {}
+[12.362341] (-) TimerEvent: {}
+[12.462905] (-) TimerEvent: {}
+[12.563532] (-) TimerEvent: {}
+[12.664166] (-) TimerEvent: {}
+[12.764761] (-) TimerEvent: {}
+[12.865340] (-) TimerEvent: {}
+[12.965979] (-) TimerEvent: {}
+[13.066551] (-) TimerEvent: {}
+[13.167071] (-) TimerEvent: {}
+[13.267599] (-) TimerEvent: {}
+[13.368132] (-) TimerEvent: {}
+[13.468657] (-) TimerEvent: {}
+[13.569233] (-) TimerEvent: {}
+[13.669908] (-) TimerEvent: {}
+[13.770479] (-) TimerEvent: {}
+[13.871032] (-) TimerEvent: {}
+[13.971547] (-) TimerEvent: {}
+[14.072063] (-) TimerEvent: {}
+[14.173086] (-) TimerEvent: {}
+[14.273608] (-) TimerEvent: {}
+[14.374116] (-) TimerEvent: {}
+[14.474654] (-) TimerEvent: {}
+[14.575218] (-) TimerEvent: {}
+[14.675880] (-) TimerEvent: {}
+[14.776413] (-) TimerEvent: {}
+[14.876957] (-) TimerEvent: {}
+[14.977481] (-) TimerEvent: {}
+[15.078011] (-) TimerEvent: {}
+[15.178545] (-) TimerEvent: {}
+[15.279076] (-) TimerEvent: {}
+[15.379597] (-) TimerEvent: {}
+[15.480112] (-) TimerEvent: {}
+[15.580678] (-) TimerEvent: {}
+[15.681323] (-) TimerEvent: {}
+[15.781903] (-) TimerEvent: {}
+[15.882455] (-) TimerEvent: {}
+[15.983018] (-) TimerEvent: {}
+[16.083560] (-) TimerEvent: {}
+[16.184088] (-) TimerEvent: {}
+[16.284620] (-) TimerEvent: {}
+[16.385150] (-) TimerEvent: {}
+[16.485697] (-) TimerEvent: {}
+[16.586381] (-) TimerEvent: {}
+[16.687105] (-) TimerEvent: {}
+[16.787851] (-) TimerEvent: {}
+[16.888552] (-) TimerEvent: {}
+[16.989259] (-) TimerEvent: {}
+[17.089963] (-) TimerEvent: {}
+[17.190667] (-) TimerEvent: {}
+[17.291372] (-) TimerEvent: {}
+[17.392078] (-) TimerEvent: {}
+[17.492784] (-) TimerEvent: {}
+[17.593489] (-) TimerEvent: {}
+[17.694170] (-) TimerEvent: {}
+[17.795068] (-) TimerEvent: {}
+[17.895783] (-) TimerEvent: {}
+[17.996485] (-) TimerEvent: {}
+[18.097204] (-) TimerEvent: {}
+[18.197918] (-) TimerEvent: {}
+[18.298601] (-) TimerEvent: {}
+[18.399328] (-) TimerEvent: {}
+[18.500040] (-) TimerEvent: {}
+[18.600751] (-) TimerEvent: {}
+[18.701456] (-) TimerEvent: {}
+[18.802179] (-) TimerEvent: {}
+[18.903107] (-) TimerEvent: {}
+[19.003793] (-) TimerEvent: {}
+[19.104481] (-) TimerEvent: {}
+[19.205187] (-) TimerEvent: {}
+[19.305881] (-) TimerEvent: {}
+[19.406582] (-) TimerEvent: {}
+[19.507288] (-) TimerEvent: {}
+[19.607966] (-) TimerEvent: {}
+[19.708638] (-) TimerEvent: {}
+[19.809336] (-) TimerEvent: {}
+[19.910058] (-) TimerEvent: {}
+[20.010770] (-) TimerEvent: {}
+[20.111503] (-) TimerEvent: {}
+[20.212216] (-) TimerEvent: {}
+[20.312917] (-) TimerEvent: {}
+[20.413634] (-) TimerEvent: {}
+[20.514358] (-) TimerEvent: {}
+[20.615082] (-) TimerEvent: {}
+[20.715806] (-) TimerEvent: {}
+[20.816513] (-) TimerEvent: {}
+[20.917235] (-) TimerEvent: {}
+[21.017952] (-) TimerEvent: {}
+[21.118657] (-) TimerEvent: {}
+[21.219383] (-) TimerEvent: {}
+[21.320092] (-) TimerEvent: {}
+[21.420983] (-) TimerEvent: {}
+[21.521695] (-) TimerEvent: {}
+[21.622399] (-) TimerEvent: {}
+[21.723125] (-) TimerEvent: {}
+[21.823805] (-) TimerEvent: {}
+[21.924462] (-) TimerEvent: {}
+[22.025143] (-) TimerEvent: {}
+[22.125844] (-) TimerEvent: {}
+[22.226545] (-) TimerEvent: {}
+[22.327288] (-) TimerEvent: {}
+[22.428003] (-) TimerEvent: {}
+[22.528706] (-) TimerEvent: {}
+[22.629414] (-) TimerEvent: {}
+[22.730103] (-) TimerEvent: {}
+[22.830783] (-) TimerEvent: {}
+[22.931499] (-) TimerEvent: {}
+[23.032125] (-) TimerEvent: {}
+[23.132682] (-) TimerEvent: {}
+[23.233202] (-) TimerEvent: {}
+[23.333727] (-) TimerEvent: {}
+[23.434241] (-) TimerEvent: {}
+[23.534812] (-) TimerEvent: {}
+[23.635471] (-) TimerEvent: {}
+[23.736036] (-) TimerEvent: {}
+[23.836610] (-) TimerEvent: {}
+[23.937260] (-) TimerEvent: {}
+[24.037818] (-) TimerEvent: {}
+[24.138340] (-) TimerEvent: {}
+[24.238864] (-) TimerEvent: {}
+[24.339417] (-) TimerEvent: {}
+[24.439962] (-) TimerEvent: {}
+[24.540515] (-) TimerEvent: {}
+[24.641146] (-) TimerEvent: {}
+[24.741718] (-) TimerEvent: {}
+[24.842364] (-) TimerEvent: {}
+[24.943073] (-) TimerEvent: {}
+[25.043746] (-) TimerEvent: {}
+[25.144412] (-) TimerEvent: {}
+[25.245066] (-) TimerEvent: {}
+[25.345720] (-) TimerEvent: {}
+[25.446386] (-) TimerEvent: {}
+[25.547061] (-) TimerEvent: {}
+[25.647696] (-) TimerEvent: {}
+[25.748374] (-) TimerEvent: {}
+[25.849049] (-) TimerEvent: {}
+[25.949729] (-) TimerEvent: {}
+[26.050389] (-) TimerEvent: {}
+[26.151091] (-) TimerEvent: {}
+[26.251763] (-) TimerEvent: {}
+[26.352425] (-) TimerEvent: {}
+[26.453181] (-) TimerEvent: {}
+[26.553736] (-) TimerEvent: {}
+[26.654274] (-) TimerEvent: {}
+[26.754795] (-) TimerEvent: {}
+[26.855388] (-) TimerEvent: {}
+[26.956030] (-) TimerEvent: {}
+[27.056597] (-) TimerEvent: {}
+[27.157255] (-) TimerEvent: {}
+[27.257917] (-) TimerEvent: {}
+[27.358579] (-) TimerEvent: {}
+[27.459270] (-) TimerEvent: {}
+[27.559935] (-) TimerEvent: {}
+[27.660602] (-) TimerEvent: {}
+[27.761264] (-) TimerEvent: {}
+[27.861921] (-) TimerEvent: {}
+[27.962592] (-) TimerEvent: {}
+[28.063285] (-) TimerEvent: {}
+[28.163948] (-) TimerEvent: {}
+[28.264603] (-) TimerEvent: {}
+[28.365267] (-) TimerEvent: {}
+[28.465931] (-) TimerEvent: {}
+[28.566603] (-) TimerEvent: {}
+[28.667290] (-) TimerEvent: {}
+[28.767955] (-) TimerEvent: {}
+[28.868624] (-) TimerEvent: {}
+[28.969300] (-) TimerEvent: {}
+[29.069934] (-) TimerEvent: {}
+[29.170496] (-) TimerEvent: {}
+[29.271038] (-) TimerEvent: {}
+[29.371561] (-) TimerEvent: {}
+[29.472172] (-) TimerEvent: {}
+[29.572786] (-) TimerEvent: {}
+[29.673367] (-) TimerEvent: {}
+[29.774030] (-) TimerEvent: {}
+[29.874701] (-) TimerEvent: {}
+[29.975406] (-) TimerEvent: {}
+[30.076131] (-) TimerEvent: {}
+[30.176780] (-) TimerEvent: {}
+[30.277441] (-) TimerEvent: {}
+[30.378102] (-) TimerEvent: {}
+[30.478756] (-) TimerEvent: {}
+[30.579443] (-) TimerEvent: {}
+[30.680101] (-) TimerEvent: {}
+[30.780759] (-) TimerEvent: {}
+[30.881433] (-) TimerEvent: {}
+[30.982101] (-) TimerEvent: {}
+[31.082769] (-) TimerEvent: {}
+[31.183467] (-) TimerEvent: {}
+[31.284134] (-) TimerEvent: {}
+[31.384786] (-) TimerEvent: {}
+[31.485440] (-) TimerEvent: {}
+[31.586090] (-) TimerEvent: {}
+[31.686731] (-) TimerEvent: {}
+[31.787421] (-) TimerEvent: {}
+[31.888071] (-) TimerEvent: {}
+[31.988740] (-) TimerEvent: {}
+[32.089416] (-) TimerEvent: {}
+[32.190109] (-) TimerEvent: {}
+[32.290746] (-) TimerEvent: {}
+[32.391406] (-) TimerEvent: {}
+[32.492056] (-) TimerEvent: {}
+[32.592683] (-) TimerEvent: {}
+[32.693295] (-) TimerEvent: {}
+[32.793927] (-) TimerEvent: {}
+[32.894539] (-) TimerEvent: {}
+[32.995202] (-) TimerEvent: {}
+[33.095810] (-) TimerEvent: {}
+[33.196442] (-) TimerEvent: {}
+[33.297063] (-) TimerEvent: {}
+[33.397696] (-) TimerEvent: {}
+[33.498297] (-) TimerEvent: {}
+[33.598880] (-) TimerEvent: {}
+[33.699471] (-) TimerEvent: {}
+[33.800041] (-) TimerEvent: {}
+[33.900617] (-) TimerEvent: {}
+[34.001200] (-) TimerEvent: {}
+[34.101796] (-) TimerEvent: {}
+[34.202392] (-) TimerEvent: {}
+[34.302989] (-) TimerEvent: {}
+[34.403569] (-) TimerEvent: {}
+[34.504159] (-) TimerEvent: {}
+[34.604745] (-) TimerEvent: {}
+[34.705329] (-) TimerEvent: {}
+[34.805919] (-) TimerEvent: {}
+[34.906512] (-) TimerEvent: {}
+[35.007083] (-) TimerEvent: {}
+[35.107693] (-) TimerEvent: {}
+[35.208370] (-) TimerEvent: {}
+[35.309151] (-) TimerEvent: {}
+[35.409810] (-) TimerEvent: {}
+[35.510407] (-) TimerEvent: {}
+[35.611096] (-) TimerEvent: {}
+[35.711781] (-) TimerEvent: {}
+[35.812696] (-) TimerEvent: {}
+[35.898835] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable unitree_lidar_ros2_node\x1b[0m\n'}
+[35.912771] (-) TimerEvent: {}
+[36.013305] (-) TimerEvent: {}
+[36.113837] (-) TimerEvent: {}
+[36.214341] (-) TimerEvent: {}
+[36.314750] (-) TimerEvent: {}
+[36.415181] (-) TimerEvent: {}
+[36.515570] (-) TimerEvent: {}
+[36.615946] (-) TimerEvent: {}
+[36.716348] (-) TimerEvent: {}
+[36.816803] (-) TimerEvent: {}
+[36.917217] (-) TimerEvent: {}
+[36.984171] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Built target unitree_lidar_ros2_node\n'}
+[37.011382] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[37.017328] (-) TimerEvent: {}
+[37.067773] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'install'}
+[37.070102] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bingflame/firerush/build/unitree_lidar_ros2'], 'cwd': '/home/bingflame/firerush/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 38150 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('OLDPWD', '/home/bingflame/xiugaihou'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bingflame/firerush/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '127.0.0.1 38150 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[37.089241] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.089806] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[37.094206] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/bingflame/firerush/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node" to ""\n'}
+[37.094585] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz\n'}
+[37.094929] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py\n'}
+[37.095291] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2\n'}
+[37.095697] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2\n'}
+[37.096116] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh\n'}
+[37.096547] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv\n'}
+[37.096901] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh\n'}
+[37.097261] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv\n'}
+[37.097569] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash\n'}
+[37.097878] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh\n'}
+[37.098191] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh\n'}
+[37.098539] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv\n'}
+[37.098838] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv\n'}
+[37.099119] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2\n'}
+[37.099433] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake\n'}
+[37.099719] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake\n'}
+[37.100003] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/bingflame/firerush/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml\n'}
+[37.103763] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[37.117592] (-) TimerEvent: {}
+[37.201338] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 0}
+[37.204482] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[1.891s] Invoking command in '/home/bingflame/firerush/src/joint_publisher': PYTHONPATH=/home/bingflame/firerush/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_publisher build --build-base /home/bingflame/firerush/build/joint_publisher/build install --record /home/bingflame/firerush/build/joint_publisher/install.log --single-version-externally-managed install_data
+[2.468s] running egg_info
+[2.470s] creating ../../build/joint_publisher/joint_publisher.egg-info
+[2.470s] writing ../../build/joint_publisher/joint_publisher.egg-info/PKG-INFO
+[2.471s] writing dependency_links to ../../build/joint_publisher/joint_publisher.egg-info/dependency_links.txt
+[2.472s] writing entry points to ../../build/joint_publisher/joint_publisher.egg-info/entry_points.txt
+[2.472s] writing requirements to ../../build/joint_publisher/joint_publisher.egg-info/requires.txt
+[2.472s] writing top-level names to ../../build/joint_publisher/joint_publisher.egg-info/top_level.txt
+[2.472s] writing manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[2.477s] reading manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[2.478s] writing manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[2.479s] running build
+[2.479s] running build_py
+[2.479s] creating /home/bingflame/firerush/build/joint_publisher/build
+[2.479s] creating /home/bingflame/firerush/build/joint_publisher/build/lib
+[2.479s] creating /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher
+[2.480s] copying joint_publisher/joint_state_publisher.py -> /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher
+[2.480s] copying joint_publisher/__init__.py -> /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher
+[2.480s] running install
+[2.481s] running install_lib
+[2.483s] creating /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher
+[2.483s] copying /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher/joint_state_publisher.py -> /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher
+[2.483s] copying /home/bingflame/firerush/build/joint_publisher/build/lib/joint_publisher/__init__.py -> /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher
+[2.484s] byte-compiling /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher/joint_state_publisher.py to joint_state_publisher.cpython-310.pyc
+[2.486s] byte-compiling /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher/__init__.py to __init__.cpython-310.pyc
+[2.486s] running install_data
+[2.487s] creating /home/bingflame/firerush/install/joint_publisher/share/ament_index
+[2.487s] creating /home/bingflame/firerush/install/joint_publisher/share/ament_index/resource_index
+[2.487s] creating /home/bingflame/firerush/install/joint_publisher/share/ament_index/resource_index/packages
+[2.487s] copying resource/joint_publisher -> /home/bingflame/firerush/install/joint_publisher/share/ament_index/resource_index/packages
+[2.488s] copying package.xml -> /home/bingflame/firerush/install/joint_publisher/share/joint_publisher
+[2.488s] running install_egg_info
+[2.493s] Copying ../../build/joint_publisher/joint_publisher.egg-info to /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher-0.0.0-py3.10.egg-info
+[2.495s] running install_scripts
+[2.545s] Installing joint_state_publisher script to /home/bingflame/firerush/install/joint_publisher/lib/joint_publisher
+[2.547s] writing list of installed files to '/home/bingflame/firerush/build/joint_publisher/install.log'
+[2.657s] Invoked command in '/home/bingflame/firerush/src/joint_publisher' returned '0': PYTHONPATH=/home/bingflame/firerush/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_publisher build --build-base /home/bingflame/firerush/build/joint_publisher/build install --record /home/bingflame/firerush/build/joint_publisher/install.log --single-version-externally-managed install_data

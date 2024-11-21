@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/bingflame/unilidar_sdk/unitree_lidar_ros2/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bingflame/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/bingflame/unilidar_sdk/unitree_lidar_ros2/install/unitree_lidar_ros2
+[0.018s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.244s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.273s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.284s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.345s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.458s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.466s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.488s] -- Found pcl_conversions: 2.6.1 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.513s] [31mCMake Error at /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[0.513s]   By not providing "FindPCL.cmake" in CMAKE_MODULE_PATH this project has
+[0.513s]   asked CMake to find a package configuration file provided by "PCL", but
+[0.513s]   CMake did not find one.
+[0.513s] 
+[0.513s]   Could not find a package configuration file provided by "PCL" with any of
+[0.513s]   the following names:
+[0.513s] 
+[0.513s]     PCLConfig.cmake
+[0.514s]     pcl-config.cmake
+[0.514s] 
+[0.514s]   Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+[0.514s]   to a directory containing one of the above files.  If "PCL" provides a
+[0.514s]   separate development package or SDK, be sure it has been installed.
+[0.514s] Call Stack (most recent call first):
+[0.514s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.514s]   CMakeLists.txt:22 (find_package)
+[0.514s] 
+[0.514s] [0m
+[0.514s] -- Configuring incomplete, errors occurred!
+[0.517s] Invoked command in '/home/bingflame/unilidar_sdk/unitree_lidar_ros2/build/unitree_lidar_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bingflame/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/bingflame/unilidar_sdk/unitree_lidar_ros2/install/unitree_lidar_ros2

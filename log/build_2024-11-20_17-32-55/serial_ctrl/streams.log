@@ -1,0 +1,21 @@
+[1.771s] Invoking command in '/home/bingflame/firerush/src/serial_ctrl': PYTHONPATH=/home/bingflame/firerush/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/firerush/build/serial_ctrl/build install --record /home/bingflame/firerush/build/serial_ctrl/install.log --single-version-externally-managed install_data
+[2.233s] running egg_info
+[2.234s] writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO
+[2.234s] writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt
+[2.235s] writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt
+[2.235s] writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt
+[2.235s] writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt
+[2.239s] reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[2.240s] writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[2.241s] running build
+[2.241s] running build_py
+[2.241s] running install
+[2.242s] running install_lib
+[2.244s] running install_data
+[2.244s] running install_egg_info
+[2.248s] removing '/home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[2.249s] Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info
+[2.250s] running install_scripts
+[2.292s] Installing serial_ctrl script to /home/bingflame/firerush/install/serial_ctrl/lib/serial_ctrl
+[2.293s] writing list of installed files to '/home/bingflame/firerush/build/serial_ctrl/install.log'
+[2.363s] Invoked command in '/home/bingflame/firerush/src/serial_ctrl' returned '0': PYTHONPATH=/home/bingflame/firerush/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/firerush/build/serial_ctrl/build install --record /home/bingflame/firerush/build/serial_ctrl/install.log --single-version-externally-managed install_data

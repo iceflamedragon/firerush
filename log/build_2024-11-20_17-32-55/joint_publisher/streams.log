@@ -1,0 +1,21 @@
+[1.795s] Invoking command in '/home/bingflame/firerush/src/joint_publisher': PYTHONPATH=/home/bingflame/firerush/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_publisher build --build-base /home/bingflame/firerush/build/joint_publisher/build install --record /home/bingflame/firerush/build/joint_publisher/install.log --single-version-externally-managed install_data
+[2.257s] running egg_info
+[2.259s] writing ../../build/joint_publisher/joint_publisher.egg-info/PKG-INFO
+[2.260s] writing dependency_links to ../../build/joint_publisher/joint_publisher.egg-info/dependency_links.txt
+[2.260s] writing entry points to ../../build/joint_publisher/joint_publisher.egg-info/entry_points.txt
+[2.260s] writing requirements to ../../build/joint_publisher/joint_publisher.egg-info/requires.txt
+[2.260s] writing top-level names to ../../build/joint_publisher/joint_publisher.egg-info/top_level.txt
+[2.264s] reading manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[2.265s] writing manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[2.266s] running build
+[2.266s] running build_py
+[2.266s] running install
+[2.267s] running install_lib
+[2.269s] running install_data
+[2.269s] running install_egg_info
+[2.273s] removing '/home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[2.274s] Copying ../../build/joint_publisher/joint_publisher.egg-info to /home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages/joint_publisher-0.0.0-py3.10.egg-info
+[2.276s] running install_scripts
+[2.317s] Installing joint_state_publisher script to /home/bingflame/firerush/install/joint_publisher/lib/joint_publisher
+[2.318s] writing list of installed files to '/home/bingflame/firerush/build/joint_publisher/install.log'
+[2.407s] Invoked command in '/home/bingflame/firerush/src/joint_publisher' returned '0': PYTHONPATH=/home/bingflame/firerush/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/firerush/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_publisher build --build-base /home/bingflame/firerush/build/joint_publisher/build install --record /home/bingflame/firerush/build/joint_publisher/install.log --single-version-externally-managed install_data

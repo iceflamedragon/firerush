@@ -1,0 +1,49 @@
+[0.013s] Invoking command in '/home/bingflame/unilidar_sdk/unitree_lidar_ros2/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bingflame/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/bingflame/unilidar_sdk/unitree_lidar_ros2/install/unitree_lidar_ros2
+[0.293s] -- The C compiler identification is GNU 13.2.0
+[0.502s] -- The CXX compiler identification is GNU 13.2.0
+[0.536s] -- Detecting C compiler ABI info
+[0.681s] -- Detecting C compiler ABI info - done
+[0.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.695s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.712s] -- Detecting CXX compiler ABI info
+[0.864s] -- Detecting CXX compiler ABI info - done
+[0.878s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.878s] -- Detecting CXX compile features
+[0.879s] -- Detecting CXX compile features - done
+[0.889s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.281s] -- Found Python3: /home/bingflame/anaconda3/envs/ros2/bin/python3 (found version "3.9.20") found components: Interpreter 
+[1.411s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.484s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.500s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.588s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.590s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.713s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.821s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.834s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.863s] -- Found pcl_conversions: 2.6.1 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.893s] [31mCMake Error at /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[1.893s]   By not providing "FindPCL.cmake" in CMAKE_MODULE_PATH this project has
+[1.893s]   asked CMake to find a package configuration file provided by "PCL", but
+[1.893s]   CMake did not find one.
+[1.893s] 
+[1.893s]   Could not find a package configuration file provided by "PCL" with any of
+[1.893s]   the following names:
+[1.893s] 
+[1.893s]     PCLConfig.cmake
+[1.893s]     pcl-config.cmake
+[1.893s] 
+[1.893s]   Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+[1.893s]   to a directory containing one of the above files.  If "PCL" provides a
+[1.893s]   separate development package or SDK, be sure it has been installed.
+[1.893s] Call Stack (most recent call first):
+[1.894s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.894s]   CMakeLists.txt:22 (find_package)
+[1.894s] 
+[1.894s] [0m
+[1.894s] -- Configuring incomplete, errors occurred!
+[1.899s] Invoked command in '/home/bingflame/unilidar_sdk/unitree_lidar_ros2/build/unitree_lidar_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bingflame/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/bingflame/unilidar_sdk/unitree_lidar_ros2/install/unitree_lidar_ros2

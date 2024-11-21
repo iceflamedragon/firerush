@@ -1,0 +1,31 @@
+[1.076s] Invoking command in '/home/bingflame/firerush/build/unitree_lidar_sdk': /usr/bin/cmake /home/bingflame/firerush/src/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/bingflame/firerush/install/unitree_lidar_sdk
+[1.183s] -- The C compiler identification is GNU 11.4.0
+[1.297s] -- The CXX compiler identification is GNU 11.4.0
+[1.312s] -- Detecting C compiler ABI info
+[1.445s] -- Detecting C compiler ABI info - done
+[1.462s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.463s] -- Detecting C compile features
+[1.464s] -- Detecting C compile features - done
+[1.471s] -- Detecting CXX compiler ABI info
+[1.626s] -- Detecting CXX compiler ABI info - done
+[1.643s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.643s] -- Detecting CXX compile features
+[1.644s] -- Detecting CXX compile features - done
+[1.647s] -- Configuring done
+[1.658s] -- Generating done
+[1.660s] -- Build files have been written to: /home/bingflame/firerush/build/unitree_lidar_sdk
+[1.671s] Invoked command in '/home/bingflame/firerush/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake /home/bingflame/firerush/src/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/bingflame/firerush/install/unitree_lidar_sdk
+[1.672s] Invoking command in '/home/bingflame/firerush/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/bingflame/firerush/build/unitree_lidar_sdk -- -j6 -l6
+[1.765s] [ 12%] [32mBuilding CXX object CMakeFiles/example_lidar_udp.dir/examples/example_lidar_udp.cpp.o[0m
+[1.783s] [ 25%] [32mBuilding CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o[0m
+[1.785s] [ 37%] [32mBuilding CXX object CMakeFiles/unilidar_publisher_udp.dir/examples/unilidar_publisher_udp.cpp.o[0m
+[1.825s] [ 50%] [32mBuilding CXX object CMakeFiles/unilidar_subscriber_udp.dir/examples/unilidar_subscriber_udp.cpp.o[0m
+[2.980s] [ 62%] [32m[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/example_lidar[0m
+[3.030s] [ 75%] [32m[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/unilidar_subscriber_udp[0m
+[3.107s] [ 87%] [32m[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/example_lidar_udp[0m
+[3.158s] [ 87%] Built target example_lidar
+[3.195s] [ 87%] Built target unilidar_subscriber_udp
+[3.202s] [100%] [32m[1mLinking CXX executable /home/bingflame/firerush/src/unitree_lidar_sdk/bin/unilidar_publisher_udp[0m
+[3.278s] [100%] Built target example_lidar_udp
+[3.365s] [100%] Built target unilidar_publisher_udp
+[3.392s] Invoked command in '/home/bingflame/firerush/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/bingflame/firerush/build/unitree_lidar_sdk -- -j6 -l6

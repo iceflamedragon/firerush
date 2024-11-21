@@ -1,0 +1,9 @@
+/home/bingflame/firerush/build/roarm/CMakeFiles/uninstall.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/roarm_uninstall.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/test.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/edit_cache.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/rebuild_cache.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/list_install_components.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/install.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/install/local.dir
+/home/bingflame/firerush/build/roarm/CMakeFiles/install/strip.dir
