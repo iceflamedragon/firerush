@@ -1,0 +1,126 @@
+[0.031s] Invoking command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera_msgs
+[0.059s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.341s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.452s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.425s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.973s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.907s] -- Found PythonInterp: /home/bingflame/anaconda3/envs/ros2/bin/python3 (found suitable version "3.10.15", minimum required is "3.6") 
+[2.911s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.965s] -- Found PythonLibs: /home/bingflame/anaconda3/envs/ros2/lib/libpython3.10.so (found suitable version "3.10.15", minimum required is "3.5") 
+[2.966s] -- Using PYTHON_EXECUTABLE: /home/bingflame/anaconda3/envs/ros2/bin/python3
+[2.966s] -- Using PYTHON_INCLUDE_DIRS: /home/bingflame/anaconda3/envs/ros2/include/python3.10
+[2.966s] -- Using PYTHON_LIBRARIES: /home/bingflame/anaconda3/envs/ros2/lib/libpython3.10.so
+[3.009s] -- Found PythonExtra: .so  
+[3.418s] -- Using numpy include directory: /home/bingflame/anaconda3/envs/ros2/lib/python3.10/site-packages/numpy/_core/include
+[3.462s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.525s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.529s] -- Added test 'lint_cmake' to check CMake code style
+[3.532s] -- Added test 'xmllint' to check XML markup files
+[3.540s] -- Configuring done
+[3.623s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[3.623s]   Cannot generate a safe runtime search path for target
+[3.623s]   astra_camera_msgs__rosidl_generator_py because files in some directories
+[3.623s]   may conflict with libraries in implicit directories:
+[3.624s] 
+[3.624s]     runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[3.624s]       /home/bingflame/anaconda3/envs/ros2/lib
+[3.624s] 
+[3.624s]   Some of these libraries may not be found correctly.
+[3.624s] Call Stack (most recent call first):
+[3.624s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.624s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.625s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[3.625s] 
+[3.625s] [0m
+[3.629s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[3.629s]   Cannot generate a safe runtime search path for target
+[3.629s]   astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext because files in
+[3.629s]   some directories may conflict with libraries in implicit directories:
+[3.629s] 
+[3.630s]     runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[3.630s]       /home/bingflame/anaconda3/envs/ros2/lib
+[3.630s] 
+[3.630s]   Some of these libraries may not be found correctly.
+[3.630s] Call Stack (most recent call first):
+[3.630s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.630s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.630s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[3.631s] 
+[3.631s] [0m
+[3.634s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[3.634s]   Cannot generate a safe runtime search path for target
+[3.635s]   astra_camera_msgs__rosidl_typesupport_introspection_c__pyext because files
+[3.635s]   in some directories may conflict with libraries in implicit directories:
+[3.635s] 
+[3.635s]     runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[3.635s]       /home/bingflame/anaconda3/envs/ros2/lib
+[3.635s] 
+[3.635s]   Some of these libraries may not be found correctly.
+[3.635s] Call Stack (most recent call first):
+[3.636s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.636s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.636s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[3.636s] 
+[3.636s] [0m
+[3.640s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[3.640s]   Cannot generate a safe runtime search path for target
+[3.640s]   astra_camera_msgs__rosidl_typesupport_c__pyext because files in some
+[3.640s]   directories may conflict with libraries in implicit directories:
+[3.640s] 
+[3.640s]     runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+[3.640s]       /home/bingflame/anaconda3/envs/ros2/lib
+[3.641s] 
+[3.641s]   Some of these libraries may not be found correctly.
+[3.641s] Call Stack (most recent call first):
+[3.641s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.641s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.641s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[3.641s] 
+[3.641s] [0m
+[3.654s] -- Generating done
+[3.659s] -- Build files have been written to: /home/bingflame/RoArm-M1/build/astra_camera_msgs
+[3.683s] Invoked command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera_msgs
+[3.686s] Invoking command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/astra_camera_msgs -- -j6 -l6
+[3.775s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.794s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.811s] [  2%] Built target ament_cmake_python_copy_astra_camera_msgs
+[3.889s] Traceback (most recent call last):
+[3.889s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[3.889s]     from rosidl_generator_c import generate_c
+[3.889s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[3.890s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[3.890s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[3.890s]     from rosidl_parser.parser import parse_idl_file
+[3.890s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[3.890s]     from lark import Lark
+[3.890s] ModuleNotFoundError: No module named 'lark'
+[3.907s] gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/build.make:185: rosidl_generator_c/astra_camera_msgs/msg/device_info.h] Error 1
+[3.908s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/all] Error 2
+[3.908s] gmake[1]: *** Waiting for unfinished jobs....
+[3.908s] Traceback (most recent call last):
+[3.908s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[3.909s]     from rosidl_generator_cpp import generate_cpp
+[3.909s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[3.909s]     from rosidl_cmake import generate_files
+[3.909s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[3.909s]     from rosidl_parser.parser import parse_idl_file
+[3.910s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[3.910s]     from lark import Lark
+[3.910s] ModuleNotFoundError: No module named 'lark'
+[3.929s] gmake[2]: *** [CMakeFiles/astra_camera_msgs__cpp.dir/build.make:221: rosidl_generator_cpp/astra_camera_msgs/msg/device_info.hpp] Error 1
+[3.929s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/astra_camera_msgs__cpp.dir/all] Error 2
+[4.245s] running egg_info
+[4.248s] creating astra_camera_msgs.egg-info
+[4.272s] writing astra_camera_msgs.egg-info/PKG-INFO
+[4.273s] writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt
+[4.274s] writing top-level names to astra_camera_msgs.egg-info/top_level.txt
+[4.274s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[4.348s] reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[4.350s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[4.425s] [  2%] Built target ament_cmake_python_build_astra_camera_msgs_egg
+[4.427s] gmake: *** [Makefile:146: all] Error 2
+[4.431s] Invoked command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/astra_camera_msgs -- -j6 -l6

@@ -1,0 +1,36 @@
+[0.034s] Invoking command in '/home/bingflame/RoArm-M1/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera
+[0.205s] -- The C compiler identification is GNU 11.4.0
+[0.356s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.519s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.545s] -- Detecting C compile features
+[0.547s] -- Detecting C compile features - done
+[0.560s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.756s] -- Detecting CXX compile features
+[0.768s] -- Detecting CXX compile features - done
+[0.772s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.657s] -- Found Python3: /home/bingflame/anaconda3/envs/ros2/bin/python3 (found version "3.10.15") found components: Interpreter 
+[1.874s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.898s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.899s]   By not providing "Findastra_camera_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.899s]   project has asked CMake to find a package configuration file provided by
+[1.899s]   "astra_camera_msgs", but CMake did not find one.
+[1.899s] 
+[1.899s]   Could not find a package configuration file provided by "astra_camera_msgs"
+[1.899s]   with any of the following names:
+[1.899s] 
+[1.900s]     astra_camera_msgsConfig.cmake
+[1.900s]     astra_camera_msgs-config.cmake
+[1.900s] 
+[1.900s]   Add the installation prefix of "astra_camera_msgs" to CMAKE_PREFIX_PATH or
+[1.900s]   set "astra_camera_msgs_DIR" to a directory containing one of the above
+[1.900s]   files.  If "astra_camera_msgs" provides a separate development package or
+[1.900s]   SDK, be sure it has been installed.
+[1.900s] 
+[1.901s] [0m
+[1.901s] -- Configuring incomplete, errors occurred!
+[1.901s] See also "/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/CMakeOutput.log".
+[1.910s] Invoked command in '/home/bingflame/RoArm-M1/build/astra_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera

@@ -1,0 +1,56 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found astra_camera_msgs: 1.0.1 (/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found Unwind: /usr/include/aarch64-linux-gnu (found suitable version "1.3.2", minimum required is "1.3.2") 
+-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+-- Found image_publisher: 3.0.6 (/opt/ros/humble/share/image_publisher/cmake)
+-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+-- Found JPEG library using standard module
+-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- libusb-1.0 found using pkgconfig
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found tf2_sensor_msgs: 0.25.8 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+-- ORRBEC Machine : aarch64
+
+-- ORRBEC Machine Bits : 64
+
+-- ORRBEC : arm64
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bingflame/RoArm-M1/build/astra_camera
+[ 11%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/device_listener.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/dynamic_params.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyz.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_frame_listener.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable point_cloud_subscriber[0m
+[ 55%] Built target point_cloud_subscriber

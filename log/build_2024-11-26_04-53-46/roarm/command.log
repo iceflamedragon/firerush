@@ -1,0 +1,4 @@
+Invoking command in '/home/bingflame/RoArm-M1/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/roarm -- -j6 -l6
+Invoked command in '/home/bingflame/RoArm-M1/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/roarm -- -j6 -l6
+Invoking command in '/home/bingflame/RoArm-M1/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/bingflame/RoArm-M1/build/roarm
+Invoked command in '/home/bingflame/RoArm-M1/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/bingflame/RoArm-M1/build/roarm

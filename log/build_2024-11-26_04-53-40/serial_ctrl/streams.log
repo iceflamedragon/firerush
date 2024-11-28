@@ -1,0 +1,37 @@
+[1.307s] Invoking command in '/home/bingflame/RoArm-M1/src/serial_ctrl': PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/RoArm-M1/build/serial_ctrl/build install --record /home/bingflame/RoArm-M1/build/serial_ctrl/install.log --single-version-externally-managed install_data
+[1.816s] running egg_info
+[1.817s] creating ../../build/serial_ctrl/serial_ctrl.egg-info
+[1.817s] writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO
+[1.818s] writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt
+[1.818s] writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt
+[1.818s] writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt
+[1.819s] writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt
+[1.819s] writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[1.823s] reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[1.824s] writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[1.826s] running build
+[1.826s] running build_py
+[1.826s] creating /home/bingflame/RoArm-M1/build/serial_ctrl/build
+[1.827s] creating /home/bingflame/RoArm-M1/build/serial_ctrl/build/lib
+[1.827s] creating /home/bingflame/RoArm-M1/build/serial_ctrl/build/lib/serial_ctrl
+[1.827s] copying serial_ctrl/serial_ctrl_py.py -> /home/bingflame/RoArm-M1/build/serial_ctrl/build/lib/serial_ctrl
+[1.827s] copying serial_ctrl/__init__.py -> /home/bingflame/RoArm-M1/build/serial_ctrl/build/lib/serial_ctrl
+[1.828s] running install
+[1.828s] running install_lib
+[1.828s] creating /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl
+[1.828s] copying /home/bingflame/RoArm-M1/build/serial_ctrl/build/lib/serial_ctrl/serial_ctrl_py.py -> /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl
+[1.829s] copying /home/bingflame/RoArm-M1/build/serial_ctrl/build/lib/serial_ctrl/__init__.py -> /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl
+[1.830s] byte-compiling /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl/serial_ctrl_py.py to serial_ctrl_py.cpython-310.pyc
+[1.832s] byte-compiling /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl/__init__.py to __init__.cpython-310.pyc
+[1.832s] running install_data
+[1.833s] creating /home/bingflame/RoArm-M1/install/serial_ctrl/share/ament_index
+[1.833s] creating /home/bingflame/RoArm-M1/install/serial_ctrl/share/ament_index/resource_index
+[1.833s] creating /home/bingflame/RoArm-M1/install/serial_ctrl/share/ament_index/resource_index/packages
+[1.833s] copying resource/serial_ctrl -> /home/bingflame/RoArm-M1/install/serial_ctrl/share/ament_index/resource_index/packages
+[1.834s] copying package.xml -> /home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl
+[1.834s] running install_egg_info
+[1.837s] Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info
+[1.840s] running install_scripts
+[1.884s] Installing serial_ctrl script to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/serial_ctrl
+[1.884s] writing list of installed files to '/home/bingflame/RoArm-M1/build/serial_ctrl/install.log'
+[1.956s] Invoked command in '/home/bingflame/RoArm-M1/src/serial_ctrl' returned '0': PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/RoArm-M1/build/serial_ctrl/build install --record /home/bingflame/RoArm-M1/build/serial_ctrl/install.log --single-version-externally-managed install_data

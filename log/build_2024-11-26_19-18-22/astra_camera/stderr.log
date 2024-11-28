@@ -1,0 +1,6 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:244: CMakeFiles/astra_camera.dir/src/uvc_camera_driver.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/astra_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

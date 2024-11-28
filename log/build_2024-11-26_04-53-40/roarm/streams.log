@@ -1,0 +1,74 @@
+[0.029s] Invoking command in '/home/bingflame/RoArm-M1/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake /home/bingflame/RoArm-M1/src/roarm -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/roarm
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.434s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.440s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.616s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.616s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.623s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.971s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.178s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.363s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.364s] -- Added test 'lint_cmake' to check CMake code style
+[1.366s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.369s] -- Added test 'xmllint' to check XML markup files
+[1.372s] -- Configuring done
+[1.379s] -- Generating done
+[1.381s] -- Build files have been written to: /home/bingflame/RoArm-M1/build/roarm
+[1.393s] Invoked command in '/home/bingflame/RoArm-M1/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake /home/bingflame/RoArm-M1/src/roarm -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/roarm
+[1.396s] Invoking command in '/home/bingflame/RoArm-M1/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/roarm -- -j6 -l6
+[1.487s] Invoked command in '/home/bingflame/RoArm-M1/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/roarm -- -j6 -l6
+[1.557s] Invoking command in '/home/bingflame/RoArm-M1/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/bingflame/RoArm-M1/build/roarm
+[1.577s] -- Install configuration: ""
+[1.577s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/config
+[1.577s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/config/.gitkeep
+[1.577s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/launch
+[1.578s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/launch/roarm.launch.py
+[1.578s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/maps
+[1.578s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/maps/.gitkeep
+[1.578s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes
+[1.578s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/base.stl
+[1.581s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L4.stl
+[1.598s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_2_A.stl
+[1.599s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_1_B.stl
+[1.601s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_3_B.stl
+[1.602s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L2.stl
+[1.603s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L3.stl
+[1.620s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L1.stl
+[1.633s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_3_A.stl
+[1.633s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_2_B.stl
+[1.634s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_1_A.stl
+[1.636s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/models
+[1.637s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/models/.gitkeep
+[1.637s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/params
+[1.637s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/params/.gitkeep
+[1.637s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/rviz
+[1.637s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz
+[1.637s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/src
+[1.638s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/src/.gitkeep
+[1.638s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/urdf
+[1.638s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/urdf/roarm.urdf
+[1.638s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/worlds
+[1.638s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/worlds/.gitkeep
+[1.639s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm
+[1.639s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm
+[1.639s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/ament_prefix_path.sh
+[1.640s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/ament_prefix_path.dsv
+[1.640s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/path.sh
+[1.640s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/path.dsv
+[1.640s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.bash
+[1.641s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.sh
+[1.641s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.zsh
+[1.641s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.dsv
+[1.641s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/package.dsv
+[1.642s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/packages/roarm
+[1.642s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/cmake/roarmConfig.cmake
+[1.642s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/cmake/roarmConfig-version.cmake
+[1.642s] -- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/package.xml
+[1.648s] Invoked command in '/home/bingflame/RoArm-M1/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bingflame/RoArm-M1/install/serial_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/bingflame/RoArm-M1/build/roarm

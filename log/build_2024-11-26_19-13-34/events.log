@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000618] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.001259] (roarm) JobQueued: {'identifier': 'roarm', 'dependencies': OrderedDict()}
+[0.001538] (serial_ctrl) JobQueued: {'identifier': 'serial_ctrl', 'dependencies': OrderedDict()}
+[0.001782] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/home/bingflame/RoArm-M1/install/astra_camera_msgs')])}
+[0.001884] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.011759] (roarm) JobStarted: {'identifier': 'roarm'}
+[0.017539] (serial_ctrl) JobStarted: {'identifier': 'serial_ctrl'}
+[0.030120] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.031292] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/bingflame/RoArm-M1/src/astra_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera_msgs'], 'cwd': '/home/bingflame/RoArm-M1/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 59428 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/envs/ros2/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('CONDA_PREFIX_1', '/home/bingflame/anaconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('PWD', '/home/bingflame/RoArm-M1/build/astra_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 59428 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3/envs/ros2'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036186] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'cmake'}
+[0.037346] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'build'}
+[0.038625] (roarm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/RoArm-M1/build/roarm', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/RoArm-M1/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 59428 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/envs/ros2/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('CONDA_PREFIX_1', '/home/bingflame/anaconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('PWD', '/home/bingflame/RoArm-M1/build/roarm'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 59428 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3/envs/ros2'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060410] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099442] (-) TimerEvent: {}
+[0.200100] (-) TimerEvent: {}
+[0.300803] (-) TimerEvent: {}
+[0.343139] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.345767] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.350811] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400955] (-) TimerEvent: {}
+[0.405946] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.453754] (astra_camera_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.501219] (-) TimerEvent: {}
+[0.585731] (roarm) CommandEnded: {'returncode': 0}
+[0.601359] (-) TimerEvent: {}
+[0.625371] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'install'}
+[0.644524] (roarm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bingflame/RoArm-M1/build/roarm'], 'cwd': '/home/bingflame/RoArm-M1/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 59428 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/envs/ros2/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('CONDA_PREFIX_1', '/home/bingflame/anaconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('PWD', '/home/bingflame/RoArm-M1/build/roarm'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 59428 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3/envs/ros2'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.662264] (roarm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.663114] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/config\n'}
+[0.663639] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/config/.gitkeep\n'}
+[0.663873] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/launch\n'}
+[0.664049] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/launch/roarm.launch.py\n'}
+[0.664207] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/maps\n'}
+[0.664348] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/maps/.gitkeep\n'}
+[0.664488] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes\n'}
+[0.664626] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/base.stl\n'}
+[0.664759] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L4.stl\n'}
+[0.664893] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_2_A.stl\n'}
+[0.665030] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_1_B.stl\n'}
+[0.665162] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_3_B.stl\n'}
+[0.665293] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L2.stl\n'}
+[0.665418] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L3.stl\n'}
+[0.665546] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L1.stl\n'}
+[0.665678] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_3_A.stl\n'}
+[0.665811] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_2_B.stl\n'}
+[0.666016] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_1_A.stl\n'}
+[0.666149] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/models\n'}
+[0.666282] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/models/.gitkeep\n'}
+[0.666413] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/params\n'}
+[0.666540] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/params/.gitkeep\n'}
+[0.666666] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/rviz\n'}
+[0.666796] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz\n'}
+[0.666965] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/src\n'}
+[0.667145] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/src/.gitkeep\n'}
+[0.667293] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/urdf\n'}
+[0.667425] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/urdf/roarm.urdf\n'}
+[0.671801] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/worlds\n'}
+[0.671996] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/worlds/.gitkeep\n'}
+[0.672154] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm\n'}
+[0.672302] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm\n'}
+[0.672440] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/ament_prefix_path.sh\n'}
+[0.672580] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/ament_prefix_path.dsv\n'}
+[0.672713] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/path.sh\n'}
+[0.672849] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/path.dsv\n'}
+[0.672979] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.bash\n'}
+[0.673109] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.sh\n'}
+[0.673276] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.zsh\n'}
+[0.673410] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.dsv\n'}
+[0.673540] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/package.dsv\n'}
+[0.673672] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/packages/roarm\n'}
+[0.673801] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/cmake/roarmConfig.cmake\n'}
+[0.673927] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/cmake/roarmConfig-version.cmake\n'}
+[0.674056] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/package.xml\n'}
+[0.680854] (roarm) CommandEnded: {'returncode': 0}
+[0.701491] (-) TimerEvent: {}
+[0.755718] (roarm) JobEnded: {'identifier': 'roarm', 'rc': 0}
+[0.801641] (-) TimerEvent: {}
+[0.902268] (-) TimerEvent: {}
+[1.002902] (-) TimerEvent: {}
+[1.103569] (-) TimerEvent: {}
+[1.204254] (-) TimerEvent: {}
+[1.289581] (serial_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_ctrl', 'build', '--build-base', '/home/bingflame/RoArm-M1/build/serial_ctrl/build', 'install', '--record', '/home/bingflame/RoArm-M1/build/serial_ctrl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bingflame/RoArm-M1/src/serial_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2)', 'USER': 'bingflame', 'SSH_CLIENT': '127.0.0.1 59428 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/', 'MOTD_SHOWN': 'pam', 'HOME': '/home/bingflame', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/bingflame', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bingflame', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '10', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/bingflame/.local/bin:/home/bingflame/anaconda3/envs/ros2/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'CONDA_PREFIX_1': '/home/bingflame/anaconda3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/bingflame/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2', 'PWD': '/home/bingflame/RoArm-M1/build/serial_ctrl', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/bingflame/anaconda3/bin/conda', 'SSH_CONNECTION': '127.0.0.1 59428 127.0.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/bingflame/anaconda3/envs/ros2', 'COLCON': '1'}, 'shell': False}
+[1.304381] (-) TimerEvent: {}
+[1.405010] (-) TimerEvent: {}
+[1.426742] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.505161] (-) TimerEvent: {}
+[1.605788] (-) TimerEvent: {}
+[1.706456] (-) TimerEvent: {}
+[1.782576] (serial_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[1.784350] (serial_ctrl) StdoutLine: {'line': b'writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO\n'}
+[1.784922] (serial_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt\n'}
+[1.785275] (serial_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt\n'}
+[1.785551] (serial_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt\n'}
+[1.785794] (serial_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt\n'}
+[1.790182] (serial_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'\n"}
+[1.791813] (serial_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'\n"}
+[1.792208] (serial_ctrl) StdoutLine: {'line': b'running build\n'}
+[1.792384] (serial_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[1.792724] (serial_ctrl) StdoutLine: {'line': b'running install\n'}
+[1.793409] (serial_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[1.795857] (serial_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[1.796165] (serial_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.799660] (serial_ctrl) StdoutLine: {'line': b"removing '/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.800412] (serial_ctrl) StdoutLine: {'line': b'Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info\n'}
+[1.802360] (serial_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[1.806530] (-) TimerEvent: {}
+[1.846342] (serial_ctrl) StdoutLine: {'line': b'Installing serial_ctrl script to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/serial_ctrl\n'}
+[1.847252] (serial_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/bingflame/RoArm-M1/build/serial_ctrl/install.log'\n"}
+[1.906722] (-) TimerEvent: {}
+[1.919315] (serial_ctrl) CommandEnded: {'returncode': 0}
+[1.934631] (serial_ctrl) JobEnded: {'identifier': 'serial_ctrl', 'rc': 0}
+[1.974760] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.006897] (-) TimerEvent: {}
+[2.107602] (-) TimerEvent: {}
+[2.208363] (-) TimerEvent: {}
+[2.309155] (-) TimerEvent: {}
+[2.409912] (-) TimerEvent: {}
+[2.510730] (-) TimerEvent: {}
+[2.611426] (-) TimerEvent: {}
+[2.712166] (-) TimerEvent: {}
+[2.812902] (-) TimerEvent: {}
+[2.856407] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.908376] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/bingflame/anaconda3/envs/ros2/bin/python3 (found suitable version "3.10.15", minimum required is "3.6") \n'}
+[2.912996] (astra_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.913376] (-) TimerEvent: {}
+[2.966929] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /home/bingflame/anaconda3/envs/ros2/lib/libpython3.10.so (found suitable version "3.10.15", minimum required is "3.5") \n'}
+[2.967702] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/bingflame/anaconda3/envs/ros2/bin/python3\n'}
+[2.968044] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/bingflame/anaconda3/envs/ros2/include/python3.10\n'}
+[2.968334] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/bingflame/anaconda3/envs/ros2/lib/libpython3.10.so\n'}
+[3.010823] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.013497] (-) TimerEvent: {}
+[3.114100] (-) TimerEvent: {}
+[3.214859] (-) TimerEvent: {}
+[3.315602] (-) TimerEvent: {}
+[3.416351] (-) TimerEvent: {}
+[3.419599] (astra_camera_msgs) StdoutLine: {'line': b'-- Using numpy include directory: /home/bingflame/anaconda3/envs/ros2/lib/python3.10/site-packages/numpy/_core/include\n'}
+[3.463141] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.516535] (-) TimerEvent: {}
+[3.526382] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.531077] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.534150] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.541916] (astra_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.616713] (-) TimerEvent: {}
+[3.624510] (astra_camera_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):\n'}
+[3.625002] (astra_camera_msgs) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.625182] (astra_camera_msgs) StderrLine: {'line': b'  astra_camera_msgs__rosidl_generator_py because files in some directories\n'}
+[3.625337] (astra_camera_msgs) StderrLine: {'line': b'  may conflict with libraries in implicit directories:\n'}
+[3.625482] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.625634] (astra_camera_msgs) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[3.625775] (astra_camera_msgs) StderrLine: {'line': b'      /home/bingflame/anaconda3/envs/ros2/lib\n'}
+[3.625905] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.626030] (astra_camera_msgs) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.626159] (astra_camera_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.626288] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.626414] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.626541] (astra_camera_msgs) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[3.626667] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.626791] (astra_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.630560] (astra_camera_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[3.630816] (astra_camera_msgs) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.630980] (astra_camera_msgs) StderrLine: {'line': b'  astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext because files in\n'}
+[3.631156] (astra_camera_msgs) StderrLine: {'line': b'  some directories may conflict with libraries in implicit directories:\n'}
+[3.631306] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.631443] (astra_camera_msgs) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[3.631580] (astra_camera_msgs) StderrLine: {'line': b'      /home/bingflame/anaconda3/envs/ros2/lib\n'}
+[3.631712] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.631844] (astra_camera_msgs) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.631970] (astra_camera_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.632094] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.632218] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.632370] (astra_camera_msgs) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[3.632497] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.632621] (astra_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.636105] (astra_camera_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[3.636308] (astra_camera_msgs) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.636446] (astra_camera_msgs) StderrLine: {'line': b'  astra_camera_msgs__rosidl_typesupport_introspection_c__pyext because files\n'}
+[3.636602] (astra_camera_msgs) StderrLine: {'line': b'  in some directories may conflict with libraries in implicit directories:\n'}
+[3.636732] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.636858] (astra_camera_msgs) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[3.636985] (astra_camera_msgs) StderrLine: {'line': b'      /home/bingflame/anaconda3/envs/ros2/lib\n'}
+[3.637109] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.637233] (astra_camera_msgs) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.637358] (astra_camera_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.637504] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.637633] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.637759] (astra_camera_msgs) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[3.637879] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.638000] (astra_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.641498] (astra_camera_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[3.641718] (astra_camera_msgs) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.641854] (astra_camera_msgs) StderrLine: {'line': b'  astra_camera_msgs__rosidl_typesupport_c__pyext because files in some\n'}
+[3.641984] (astra_camera_msgs) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[3.642111] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.642236] (astra_camera_msgs) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[3.642360] (astra_camera_msgs) StderrLine: {'line': b'      /home/bingflame/anaconda3/envs/ros2/lib\n'}
+[3.642481] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.642602] (astra_camera_msgs) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.642725] (astra_camera_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.642846] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.642967] (astra_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.643111] (astra_camera_msgs) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[3.643242] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[3.643367] (astra_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.655326] (astra_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.660923] (astra_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/bingflame/RoArm-M1/build/astra_camera_msgs\n'}
+[3.684215] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[3.685703] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[3.686262] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/RoArm-M1/build/astra_camera_msgs', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/RoArm-M1/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 59428 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/envs/ros2/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('CONDA_PREFIX_1', '/home/bingflame/anaconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('PWD', '/home/bingflame/RoArm-M1/build/astra_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 59428 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3/envs/ros2'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.716862] (-) TimerEvent: {}
+[3.776591] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.795355] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.812645] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_astra_camera_msgs\n'}
+[3.817000] (-) TimerEvent: {}
+[3.890359] (astra_camera_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.890961] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>\n'}
+[3.891217] (astra_camera_msgs) StderrLine: {'line': b'    from rosidl_generator_c import generate_c\n'}
+[3.891387] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>\n'}
+[3.891542] (astra_camera_msgs) StderrLine: {'line': b'    from rosidl_cmake import convert_camel_case_to_lower_case_underscore\n'}
+[3.891732] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[3.891872] (astra_camera_msgs) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[3.892008] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[3.892137] (astra_camera_msgs) StderrLine: {'line': b'    from lark import Lark\n'}
+[3.892265] (astra_camera_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[3.908771] (astra_camera_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/build.make:185: rosidl_generator_c/astra_camera_msgs/msg/device_info.h] Error 1\n'}
+[3.909489] (astra_camera_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[3.909691] (astra_camera_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.910237] (astra_camera_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.910408] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>\n'}
+[3.910632] (astra_camera_msgs) StderrLine: {'line': b'    from rosidl_generator_cpp import generate_cpp\n'}
+[3.910791] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>\n'}
+[3.910935] (astra_camera_msgs) StderrLine: {'line': b'    from rosidl_cmake import generate_files\n'}
+[3.911101] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[3.911369] (astra_camera_msgs) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[3.911525] (astra_camera_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[3.911663] (astra_camera_msgs) StderrLine: {'line': b'    from lark import Lark\n'}
+[3.911795] (astra_camera_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[3.917096] (-) TimerEvent: {}
+[3.930279] (astra_camera_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/astra_camera_msgs__cpp.dir/build.make:221: rosidl_generator_cpp/astra_camera_msgs/msg/device_info.hpp] Error 1\n'}
+[3.930766] (astra_camera_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/astra_camera_msgs__cpp.dir/all] Error 2\n'}
+[4.017298] (-) TimerEvent: {}
+[4.117996] (-) TimerEvent: {}
+[4.218711] (-) TimerEvent: {}
+[4.247052] (astra_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.249901] (astra_camera_msgs) StdoutLine: {'line': b'creating astra_camera_msgs.egg-info\n'}
+[4.273830] (astra_camera_msgs) StdoutLine: {'line': b'writing astra_camera_msgs.egg-info/PKG-INFO\n'}
+[4.274698] (astra_camera_msgs) StdoutLine: {'line': b'writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt\n'}
+[4.275417] (astra_camera_msgs) StdoutLine: {'line': b'writing top-level names to astra_camera_msgs.egg-info/top_level.txt\n'}
+[4.275719] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[4.318865] (-) TimerEvent: {}
+[4.349497] (astra_camera_msgs) StdoutLine: {'line': b"reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[4.351720] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[4.419039] (-) TimerEvent: {}
+[4.426638] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_astra_camera_msgs_egg\n'}
+[4.429079] (astra_camera_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.432896] (astra_camera_msgs) CommandEnded: {'returncode': 2}
+[4.519206] (-) TimerEvent: {}
+[4.620068] (-) TimerEvent: {}
+[4.720846] (-) TimerEvent: {}
+[4.754107] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 2}
+[4.765326] (astra_camera) JobSkipped: {'identifier': 'astra_camera'}
+[4.765452] (-) EventReactorShutdown: {}

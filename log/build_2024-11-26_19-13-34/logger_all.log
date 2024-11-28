@@ -1,0 +1,250 @@
+[0.219s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.219s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff878fbac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87b10700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87b10700>>)
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.551s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bingflame/RoArm-M1'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/astra_camera_msgs) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm' with type 'ros.ament_cmake' and name 'roarm'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ctrl) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_ctrl' with type 'ros.ament_python' and name 'serial_ctrl'
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.643s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.753s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bingflame/RoArm-M1/build/astra_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bingflame/RoArm-M1/install/astra_camera_msgs', 'merge_install': False, 'path': '/home/bingflame/RoArm-M1/src/astra_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_target' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_clean_first' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_force_configure' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'ament_cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.755s] DEBUG:colcon.colcon_core.verb:Building package 'roarm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bingflame/RoArm-M1/build/roarm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bingflame/RoArm-M1/install/roarm', 'merge_install': False, 'path': '/home/bingflame/RoArm-M1/src/roarm', 'symlink_install': False, 'test_result_base': None}
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.756s] DEBUG:colcon.colcon_core.verb:Building package 'serial_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bingflame/RoArm-M1/build/serial_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bingflame/RoArm-M1/install/serial_ctrl', 'merge_install': False, 'path': '/home/bingflame/RoArm-M1/src/serial_ctrl', 'symlink_install': False, 'test_result_base': None}
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bingflame/RoArm-M1/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bingflame/RoArm-M1/install/astra_camera', 'merge_install': False, 'path': '/home/bingflame/RoArm-M1/src/astra_camera', 'symlink_install': False, 'test_result_base': None}
+[0.757s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.759s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.760s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bingflame/RoArm-M1/src/astra_camera_msgs' with build type 'ament_cmake'
+[0.760s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bingflame/RoArm-M1/src/astra_camera_msgs'
+[0.764s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.771s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bingflame/RoArm-M1/src/roarm' with build type 'ament_cmake'
+[0.771s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bingflame/RoArm-M1/src/roarm'
+[0.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.776s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bingflame/RoArm-M1/src/serial_ctrl' with build type 'ament_python'
+[0.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_ctrl', 'ament_prefix_path')
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/hook/ament_prefix_path.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/hook/ament_prefix_path.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/hook/ament_prefix_path.sh'
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera_msgs
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bingflame/RoArm-M1/build/roarm': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/roarm -- -j6 -l6
+[1.336s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bingflame/RoArm-M1/src/serial_ctrl'
+[1.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bingflame/RoArm-M1/build/roarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/roarm -- -j6 -l6
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bingflame/RoArm-M1/build/roarm': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/bingflame/RoArm-M1/build/roarm
+[1.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm)
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bingflame/RoArm-M1/build/roarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/bingflame/RoArm-M1/build/roarm
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm' for CMake module files
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm' for CMake config files
+[1.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm', 'cmake_prefix_path')
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/roarm/share/roarm/hook/cmake_prefix_path.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bingflame/RoArm-M1/install/roarm/share/roarm/hook/cmake_prefix_path.dsv'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/roarm/share/roarm/hook/cmake_prefix_path.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/lib/pkgconfig/roarm.pc'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/lib/python3.10/site-packages'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/bin'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.sh'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.bash'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.zsh'
+[1.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bingflame/RoArm-M1/install/roarm/share/colcon-core/packages/roarm)
+[1.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm)
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm' for CMake module files
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm' for CMake config files
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm', 'cmake_prefix_path')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/roarm/share/roarm/hook/cmake_prefix_path.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bingflame/RoArm-M1/install/roarm/share/roarm/hook/cmake_prefix_path.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/roarm/share/roarm/hook/cmake_prefix_path.sh'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/bin'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/lib/pkgconfig/roarm.pc'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/lib/python3.10/site-packages'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/roarm/bin'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.sh'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.bash'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/roarm/share/roarm/package.zsh'
+[1.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bingflame/RoArm-M1/install/roarm/share/colcon-core/packages/roarm)
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bingflame/RoArm-M1/src/serial_ctrl': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/RoArm-M1/build/serial_ctrl/build install --record /home/bingflame/RoArm-M1/build/serial_ctrl/install.log --single-version-externally-managed install_data
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/serial_ctrl' for CMake module files
+[2.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bingflame/RoArm-M1/src/serial_ctrl' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/RoArm-M1/build/serial_ctrl/build install --record /home/bingflame/RoArm-M1/build/serial_ctrl/install.log --single-version-externally-managed install_data
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/serial_ctrl' for CMake config files
+[2.681s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/serial_ctrl/lib'
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/serial_ctrl/bin'
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/serial_ctrl/lib/pkgconfig/serial_ctrl.pc'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages'
+[2.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_ctrl', 'pythonpath')
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/hook/pythonpath.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/hook/pythonpath.dsv'
+[2.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/hook/pythonpath.sh'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/serial_ctrl/bin'
+[2.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_ctrl)
+[2.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/package.ps1'
+[2.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/package.dsv'
+[2.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/package.sh'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/package.bash'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/serial_ctrl/share/serial_ctrl/package.zsh'
+[2.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bingflame/RoArm-M1/install/serial_ctrl/share/colcon-core/packages/serial_ctrl)
+[4.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera_msgs
+[4.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/astra_camera_msgs -- -j6 -l6
+[5.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/bingflame/RoArm-M1/build/astra_camera_msgs -- -j6 -l6
+[5.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[5.504s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/astra_camera_msgs' for CMake module files
+[5.505s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/astra_camera_msgs' for CMake config files
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/astra_camera_msgs/bin'
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages'
+[5.507s] Level 1:colcon.colcon_core.environment:checking '/home/bingflame/RoArm-M1/install/astra_camera_msgs/bin'
+[5.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[5.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[5.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[5.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[5.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[5.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[5.524s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.536s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.537s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.563s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[5.564s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bingflame/RoArm-M1/install/local_setup.ps1'
+[5.567s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bingflame/RoArm-M1/install/_local_setup_util_ps1.py'
+[5.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bingflame/RoArm-M1/install/setup.ps1'
+[5.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bingflame/RoArm-M1/install/local_setup.sh'
+[5.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bingflame/RoArm-M1/install/_local_setup_util_sh.py'
+[5.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bingflame/RoArm-M1/install/setup.sh'
+[5.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bingflame/RoArm-M1/install/local_setup.bash'
+[5.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bingflame/RoArm-M1/install/setup.bash'
+[5.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bingflame/RoArm-M1/install/local_setup.zsh'
+[5.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bingflame/RoArm-M1/install/setup.zsh'

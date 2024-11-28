@@ -1,0 +1,2 @@
+Invoking command in '/home/bingflame/RoArm-M1/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera
+Invoked command in '/home/bingflame/RoArm-M1/build/astra_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera

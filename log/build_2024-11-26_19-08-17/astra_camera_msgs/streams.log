@@ -1,0 +1,57 @@
+[0.031s] Invoking command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera_msgs
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.243s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.399s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.558s] -- Detecting CXX compiler ABI info - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.573s] -- Detecting CXX compile features
+[0.575s] -- Detecting CXX compile features - done
+[0.579s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.455s] -- Found Python3: /home/bingflame/anaconda3/envs/ros2/bin/python3 (found version "3.10.15") found components: Interpreter 
+[1.656s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.662s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.675s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.840s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.197s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.197s]   execute_process(/home/bingflame/anaconda3/envs/ros2/bin/python3 -m
+[2.197s]   rosidl_adapter --package-name astra_camera_msgs --arguments-file
+[2.198s]   /home/bingflame/RoArm-M1/build/astra_camera_msgs/rosidl_adapter__arguments__astra_camera_msgs.json
+[2.198s]   --output-dir
+[2.198s]   /home/bingflame/RoArm-M1/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs
+[2.199s]   --output-file
+[2.199s]   /home/bingflame/RoArm-M1/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs.idls)
+[2.199s]   returned error code 1:
+[2.199s] 
+[2.200s]   Traceback (most recent call last):
+[2.200s] 
+[2.200s]     File "/home/bingflame/anaconda3/envs/ros2/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.200s]       return _run_code(code, main_globals, None,
+[2.201s]     File "/home/bingflame/anaconda3/envs/ros2/lib/python3.10/runpy.py", line 86, in _run_code
+[2.201s]       exec(code, run_globals)
+[2.201s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.201s]       sys.exit(main())
+[2.202s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.202s]       abs_idl_file = convert_to_idl(
+[2.202s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[2.202s]       from rosidl_adapter.msg import convert_msg_to_idl
+[2.202s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[2.203s]       from rosidl_adapter.resource import expand_template
+[2.203s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[2.203s]       import em
+[2.203s] 
+[2.204s]   ModuleNotFoundError: No module named 'em'
+[2.204s] 
+[2.204s] Call Stack (most recent call first):
+[2.205s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.205s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[2.205s] 
+[2.206s] [0m
+[2.206s] -- Configuring incomplete, errors occurred!
+[2.206s] See also "/home/bingflame/RoArm-M1/build/astra_camera_msgs/CMakeFiles/CMakeOutput.log".
+[2.223s] Invoked command in '/home/bingflame/RoArm-M1/build/astra_camera_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/bingflame/RoArm-M1/src/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/bingflame/RoArm-M1/install/astra_camera_msgs

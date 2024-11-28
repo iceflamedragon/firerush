@@ -1,0 +1,12 @@
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/uninstall.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/astra_camera_uninstall.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/astra_camera.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/list_devices_node.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/point_cloud_subscriber.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/test.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/edit_cache.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/rebuild_cache.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/list_install_components.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/install.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/install/local.dir
+/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/install/strip.dir
