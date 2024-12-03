@@ -1,0 +1,46 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (JPEG) does
+  not match the name of the calling package (JpegPkg).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/libuvc/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+  /usr/local/lib/cmake/libuvc/libuvcConfig.cmake:13 (find_package)
+  CMakeLists.txt:27 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning at CMakeLists.txt:84 (add_library):
+  Cannot generate a safe runtime search path for target astra_camera because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /home/bingflame/anaconda3/envs/ros2/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:120 (add_executable):
+  Cannot generate a safe runtime search path for target list_devices_node
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /home/bingflame/anaconda3/envs/ros2/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+    5 | #include [01;31m[K<serial/serial.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/point_cloud_subscriber.dir/build.make:76: CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:90: CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/astra_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

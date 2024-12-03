@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_subscriber[0m
+[  5%] [32mBuilding CXX object CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o[0m
+[ 83%] Built target astra_camera
+[ 94%] Built target list_devices_node
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In constructor ‘[01m[KDepthSubscriber::DepthSubscriber()[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:108:14:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+  108 |       return [01;31m[K-1[m[K;
+      |              [01;31m[K^~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:119:14:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+  119 |       return [01;31m[K-1[m[K;
+      |              [01;31m[K^~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:145:14:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+  145 |       return [01;31m[K-1[m[K;
+      |              [01;31m[K^~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:151:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  151 |     char [01;35m[Kbuffer[m[K[256];
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In member function ‘[01m[Kvoid DepthSubscriber::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:180:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+  180 |     memset([01;31m[Kbuffer[m[K, 0, sizeof(buffer));
+      |            [01;31m[K^~~~~~[m[K
+      |            [32m[Ksetbuffer[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:181:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_fd[m[K’ was not declared in this scope
+  181 |     int n = read([01;31m[Kserial_fd[m[K, buffer, sizeof(buffer) - 1);
+      |                  [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_subscriber.dir/build.make:76: CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

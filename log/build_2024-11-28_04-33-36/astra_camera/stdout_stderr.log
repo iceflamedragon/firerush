@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found astra_camera_msgs: 1.0.1 (/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+-- Found image_publisher: 3.0.6 (/opt/ros/humble/share/image_publisher/cmake)
+-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+-- Found JPEG library using standard module
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (JPEG) does
+  not match the name of the calling package (JpegPkg).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/libuvc/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+  /usr/local/lib/cmake/libuvc/libuvcConfig.cmake:13 (find_package)
+  CMakeLists.txt:27 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+-- libusb-1.0 found using pkgconfig
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found tf2_sensor_msgs: 0.25.8 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+-- Checking for module 'pyserial'
+--   No package 'pyserial' found
+[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+  A required package was not found
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+  CMakeLists.txt:42 (pkg_check_modules)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/bingflame/RoArm-M1/build/astra_camera/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:673: cmake_check_build_system] Error 1

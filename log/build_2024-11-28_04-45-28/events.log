@@ -1,0 +1,1191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000625] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.001215] (roarm) JobQueued: {'identifier': 'roarm', 'dependencies': OrderedDict()}
+[0.001489] (serial_ctrl) JobQueued: {'identifier': 'serial_ctrl', 'dependencies': OrderedDict()}
+[0.001713] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/home/bingflame/RoArm-M1/install/astra_camera_msgs')])}
+[0.001811] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.012667] (roarm) JobStarted: {'identifier': 'roarm'}
+[0.018245] (serial_ctrl) JobStarted: {'identifier': 'serial_ctrl'}
+[0.030592] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.031835] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[0.033032] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/RoArm-M1/build/astra_camera_msgs', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/RoArm-M1/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 51452 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '12'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/bingflame/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/bingflame/RoArm-M1/build/astra_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 51452 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037804] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'cmake'}
+[0.039209] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'build'}
+[0.039670] (roarm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/RoArm-M1/build/roarm', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/RoArm-M1/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 51452 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '12'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/bingflame/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/bingflame/RoArm-M1/build/roarm'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 51452 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099509] (-) TimerEvent: {}
+[0.136204] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target astra_camera_msgs__cpp\n'}
+[0.145814] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target astra_camera_msgs__rosidl_generator_c\n'}
+[0.169447] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_astra_camera_msgs\n'}
+[0.191881] (astra_camera_msgs) StdoutLine: {'line': b'[ 24%] Built target astra_camera_msgs__rosidl_typesupport_cpp\n'}
+[0.192588] (astra_camera_msgs) StdoutLine: {'line': b'[ 35%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.194887] (astra_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199627] (-) TimerEvent: {}
+[0.213774] (astra_camera_msgs) StdoutLine: {'line': b'[ 58%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.214791] (astra_camera_msgs) StdoutLine: {'line': b'[ 70%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[0.219632] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs__rosidl_typesupport_c\n'}
+[0.260196] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs\n'}
+[0.299826] (-) TimerEvent: {}
+[0.301458] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target astra_camera_msgs__py\n'}
+[0.352857] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] Built target astra_camera_msgs__rosidl_generator_py\n'}
+[0.397111] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[0.397608] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.397823] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.399934] (-) TimerEvent: {}
+[0.500550] (-) TimerEvent: {}
+[0.576082] (roarm) CommandEnded: {'returncode': 0}
+[0.600689] (-) TimerEvent: {}
+[0.617442] (roarm) JobProgress: {'identifier': 'roarm', 'progress': 'install'}
+[0.634713] (roarm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bingflame/RoArm-M1/build/roarm'], 'cwd': '/home/bingflame/RoArm-M1/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 51452 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '12'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/bingflame/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/bingflame/RoArm-M1/build/roarm'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 51452 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.651130] (roarm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.651720] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/config\n'}
+[0.652103] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/config/.gitkeep\n'}
+[0.652435] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/launch\n'}
+[0.652715] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/launch/roarm.launch.py\n'}
+[0.653039] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/maps\n'}
+[0.653287] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/maps/.gitkeep\n'}
+[0.653522] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes\n'}
+[0.653666] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/base.stl\n'}
+[0.653802] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L4.stl\n'}
+[0.653931] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_2_A.stl\n'}
+[0.654150] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_1_B.stl\n'}
+[0.654321] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_3_B.stl\n'}
+[0.654494] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L2.stl\n'}
+[0.654621] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L3.stl\n'}
+[0.654740] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L1.stl\n'}
+[0.654886] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_3_A.stl\n'}
+[0.655012] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_2_B.stl\n'}
+[0.655134] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/meshes/L5_1_A.stl\n'}
+[0.655255] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/models\n'}
+[0.655375] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/models/.gitkeep\n'}
+[0.655493] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/params\n'}
+[0.655611] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/params/.gitkeep\n'}
+[0.655730] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/rviz\n'}
+[0.655849] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz\n'}
+[0.655973] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/src\n'}
+[0.656265] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/src/.gitkeep\n'}
+[0.656401] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/urdf\n'}
+[0.656523] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/urdf/roarm.urdf\n'}
+[0.656645] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/worlds\n'}
+[0.656765] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/worlds/.gitkeep\n'}
+[0.657024] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm\n'}
+[0.657486] (astra_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.657991] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm\n'}
+[0.659152] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/ament_prefix_path.sh\n'}
+[0.659319] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/ament_prefix_path.dsv\n'}
+[0.659679] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/path.sh\n'}
+[0.659846] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/environment/path.dsv\n'}
+[0.660488] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.bash\n'}
+[0.660972] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.sh\n'}
+[0.661244] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.zsh\n'}
+[0.661494] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/local_setup.dsv\n'}
+[0.661764] (roarm) StdoutLine: {'line': b'-- Installing: /home/bingflame/RoArm-M1/install/roarm/share/roarm/package.dsv\n'}
+[0.662008] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/ament_index/resource_index/packages/roarm\n'}
+[0.662220] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/cmake/roarmConfig.cmake\n'}
+[0.662414] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/cmake/roarmConfig-version.cmake\n'}
+[0.662670] (roarm) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/roarm/share/roarm/package.xml\n'}
+[0.662963] (roarm) CommandEnded: {'returncode': 0}
+[0.680390] (astra_camera_msgs) StdoutLine: {'line': b'writing astra_camera_msgs.egg-info/PKG-INFO\n'}
+[0.682052] (astra_camera_msgs) StdoutLine: {'line': b'writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt\n'}
+[0.682596] (astra_camera_msgs) StdoutLine: {'line': b'writing top-level names to astra_camera_msgs.egg-info/top_level.txt\n'}
+[0.700809] (-) TimerEvent: {}
+[0.733734] (roarm) JobEnded: {'identifier': 'roarm', 'rc': 0}
+[0.762261] (astra_camera_msgs) StdoutLine: {'line': b"reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.765589] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.800962] (-) TimerEvent: {}
+[0.845412] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_astra_camera_msgs_egg\n'}
+[0.874895] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[0.901121] (-) TimerEvent: {}
+[1.001738] (-) TimerEvent: {}
+[1.102589] (-) TimerEvent: {}
+[1.203310] (-) TimerEvent: {}
+[1.262110] (serial_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_ctrl', 'build', '--build-base', '/home/bingflame/RoArm-M1/build/serial_ctrl/build', 'install', '--record', '/home/bingflame/RoArm-M1/build/serial_ctrl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bingflame/RoArm-M1/src/serial_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'bingflame', 'SSH_CLIENT': '127.0.0.1 51452 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/', 'MOTD_SHOWN': 'pam', 'HOME': '/home/bingflame', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/bingflame', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bingflame', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '12', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/bingflame/.local/bin:/home/bingflame/anaconda3/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GSETTINGS_SCHEMA_DIR': '/home/bingflame/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/bingflame/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'PWD': '/home/bingflame/RoArm-M1/build/serial_ctrl', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/bingflame/anaconda3/bin/conda', 'SSH_CONNECTION': '127.0.0.1 51452 127.0.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/bingflame/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1'}, 'shell': False}
+[1.303431] (-) TimerEvent: {}
+[1.307659] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'install'}
+[1.308398] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bingflame/RoArm-M1/build/astra_camera_msgs'], 'cwd': '/home/bingflame/RoArm-M1/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 51452 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '12'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/bingflame/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/bingflame/RoArm-M1/build/astra_camera_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 51452 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.328474] (astra_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.329076] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs\n'}
+[1.329403] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[1.329726] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[1.330049] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h\n'}
+[1.330328] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[1.330612] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h\n'}
+[1.330945] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h\n'}
+[1.331257] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h\n'}
+[1.331485] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[1.331677] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[1.331825] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[1.332011] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.c\n'}
+[1.332341] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h\n'}
+[1.332523] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h\n'}
+[1.332672] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[1.332812] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.c\n'}
+[1.333175] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[1.333328] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h\n'}
+[1.333508] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h\n'}
+[1.333654] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.333901] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[1.334151] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h\n'}
+[1.334445] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h\n'}
+[1.334743] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h\n'}
+[1.335038] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h\n'}
+[1.335183] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h\n'}
+[1.335358] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[1.335502] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h\n'}
+[1.335638] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.c\n'}
+[1.335772] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h\n'}
+[1.335949] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h\n'}
+[1.336424] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.c\n'}
+[1.336772] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h\n'}
+[1.337077] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h\n'}
+[1.337362] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h\n'}
+[1.337673] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.c\n'}
+[1.337945] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h\n'}
+[1.338182] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h\n'}
+[1.338435] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h\n'}
+[1.338715] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h\n'}
+[1.338959] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.c\n'}
+[1.339112] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h\n'}
+[1.339295] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h\n'}
+[1.339431] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.c\n'}
+[1.339561] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h\n'}
+[1.339781] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h\n'}
+[1.340109] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h\n'}
+[1.340413] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h\n'}
+[1.340716] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h\n'}
+[1.340885] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h\n'}
+[1.341065] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.c\n'}
+[1.341201] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h\n'}
+[1.341334] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh\n'}
+[1.341463] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv\n'}
+[1.341640] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so\n'}
+[1.341804] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[1.342010] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[1.342174] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.342332] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[1.342461] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[1.342635] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[1.342771] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.342949] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[1.343077] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[1.343250] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.343377] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.343644] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[1.343950] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h\n'}
+[1.344455] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[1.344765] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h\n'}
+[1.345071] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.345291] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[1.345424] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[1.345551] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.345675] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[1.345797] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.c\n'}
+[1.345920] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[1.346042] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[1.346209] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[1.346334] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[1.346456] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[1.346577] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[1.346696] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[1.346817] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h\n'}
+[1.346940] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h\n'}
+[1.347060] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.c\n'}
+[1.347180] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.c\n'}
+[1.347298] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h\n'}
+[1.347416] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h\n'}
+[1.347535] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h\n'}
+[1.347653] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h\n'}
+[1.347772] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.c\n'}
+[1.347889] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.c\n'}
+[1.348022] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.c\n'}
+[1.348451] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.c\n'}
+[1.348622] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.348767] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so\n'}
+[1.348922] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[1.349058] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[1.349192] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp\n'}
+[1.349327] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp\n'}
+[1.349460] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp\n'}
+[1.349591] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[1.349722] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp\n'}
+[1.349853] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[1.349985] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[1.350145] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[1.350279] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[1.350412] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[1.350543] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp\n'}
+[1.350674] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp\n'}
+[1.350805] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[1.350936] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[1.351066] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp\n'}
+[1.351197] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp\n'}
+[1.351328] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp\n'}
+[1.351458] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp\n'}
+[1.351588] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp\n'}
+[1.351737] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp\n'}
+[1.351872] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[1.352006] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp\n'}
+[1.352428] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp\n'}
+[1.352626] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp\n'}
+[1.352779] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp\n'}
+[1.352924] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp\n'}
+[1.353065] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp\n'}
+[1.353205] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp\n'}
+[1.353344] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp\n'}
+[1.353483] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp\n'}
+[1.353622] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp\n'}
+[1.353760] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp\n'}
+[1.353898] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp\n'}
+[1.354035] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp\n'}
+[1.354172] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp\n'}
+[1.354310] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp\n'}
+[1.354481] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp\n'}
+[1.354623] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp\n'}
+[1.354762] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp\n'}
+[1.354901] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[1.355055] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[1.355193] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.355331] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[1.355467] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.355606] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/dds_fastrtps\n'}
+[1.355746] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.355886] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.356025] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[1.356460] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[1.356675] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.356838] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.356991] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.357140] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.357288] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/dds_fastrtps\n'}
+[1.357435] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.357583] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.357731] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.357879] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[1.358026] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[1.358172] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[1.358347] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[1.358497] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.358646] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.358792] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.cpp\n'}
+[1.358969] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[1.359117] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.359264] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[1.359408] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[1.359552] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.359697] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.359842] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.cpp\n'}
+[1.359987] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp\n'}
+[1.360401] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp\n'}
+[1.360557] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp\n'}
+[1.360730] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.360893] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.cpp\n'}
+[1.361039] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.cpp\n'}
+[1.361180] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.361320] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.361482] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.361622] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.361763] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[1.361901] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh\n'}
+[1.362038] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv\n'}
+[1.362176] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs-1.0.1-py3.10.egg-info\n'}
+[1.362313] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[1.362453] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[1.362593] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO\n'}
+[1.362731] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt\n'}
+[1.362868] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs\n'}
+[1.363004] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.363143] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[1.363313] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.363455] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.363592] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.363735] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/__init__.py\n'}
+[1.363872] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.364011] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg\n'}
+[1.364425] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg/_metadata_s.c\n'}
+[1.364612] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg/_extrinsics_s.c\n'}
+[1.364756] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg/_device_info.py\n'}
+[1.364904] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg/__init__.py\n'}
+[1.365041] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg/_device_info_s.c\n'}
+[1.365174] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg/_extrinsics.py\n'}
+[1.365303] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg/_metadata.py\n'}
+[1.365436] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.365568] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv\n'}
+[1.365698] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_device_info.py\n'}
+[1.365828] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_set_int32_s.c\n'}
+[1.365962] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_string_s.c\n'}
+[1.366095] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_camera_params_s.c\n'}
+[1.366226] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_int32_s.c\n'}
+[1.366356] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_string.py\n'}
+[1.366486] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_camera_params.py\n'}
+[1.366638] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_device_info_s.c\n'}
+[1.366773] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_camera_info.py\n'}
+[1.366905] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/__init__.py\n'}
+[1.367035] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_int32.py\n'}
+[1.367165] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_get_camera_info_s.c\n'}
+[1.367295] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv/_set_int32.py\n'}
+[1.403593] (-) TimerEvent: {}
+[1.426045] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs'...\n"}
+[1.426530] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/msg'...\n"}
+[1.426720] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/srv'...\n"}
+[1.437554] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.437948] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.438390] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.438861] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[1.439154] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl\n'}
+[1.439378] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl\n'}
+[1.439624] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl\n'}
+[1.439867] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl\n'}
+[1.440401] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl\n'}
+[1.440749] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl\n'}
+[1.441031] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl\n'}
+[1.441278] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl\n'}
+[1.441522] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl\n'}
+[1.441760] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg\n'}
+[1.441995] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg\n'}
+[1.442233] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg\n'}
+[1.442474] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv\n'}
+[1.442686] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg\n'}
+[1.442921] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg\n'}
+[1.443155] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv\n'}
+[1.443383] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg\n'}
+[1.443624] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg\n'}
+[1.443835] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv\n'}
+[1.443993] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg\n'}
+[1.444177] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg\n'}
+[1.444387] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv\n'}
+[1.444543] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg\n'}
+[1.444779] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg\n'}
+[1.445299] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv\n'}
+[1.445597] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg\n'}
+[1.445879] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg\n'}
+[1.446195] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv\n'}
+[1.446472] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg\n'}
+[1.446768] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg\n'}
+[1.447052] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs\n'}
+[1.447547] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs\n'}
+[1.447855] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh\n'}
+[1.448156] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[1.448450] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh\n'}
+[1.448766] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv\n'}
+[1.448980] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash\n'}
+[1.449272] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh\n'}
+[1.449568] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh\n'}
+[1.449889] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv\n'}
+[1.450156] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv\n'}
+[1.450452] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs\n'}
+[1.450753] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[1.451013] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.451222] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.451424] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.451627] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.451828] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.452028] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.452275] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.452479] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.452676] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.452875] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.453073] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.453268] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.453464] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.453662] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.453907] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.454128] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.454329] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.454526] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.454742] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.454942] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.455141] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.455925] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.456672] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.459068] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake\n'}
+[1.460177] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake\n'}
+[1.460515] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/package.xml\n'}
+[1.460908] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[1.503715] (-) TimerEvent: {}
+[1.604572] (-) TimerEvent: {}
+[1.705591] (-) TimerEvent: {}
+[1.735155] (serial_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[1.736228] (serial_ctrl) StdoutLine: {'line': b'writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO\n'}
+[1.736771] (serial_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt\n'}
+[1.737311] (serial_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt\n'}
+[1.737625] (serial_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt\n'}
+[1.737834] (serial_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt\n'}
+[1.741388] (serial_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'\n"}
+[1.742936] (serial_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'\n"}
+[1.743511] (serial_ctrl) StdoutLine: {'line': b'running build\n'}
+[1.743760] (serial_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[1.744032] (serial_ctrl) StdoutLine: {'line': b'running install\n'}
+[1.744570] (serial_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[1.746823] (serial_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[1.747091] (serial_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.750579] (serial_ctrl) StdoutLine: {'line': b"removing '/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.751416] (serial_ctrl) StdoutLine: {'line': b'Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info\n'}
+[1.753341] (serial_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[1.795289] (serial_ctrl) StdoutLine: {'line': b'Installing serial_ctrl script to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/serial_ctrl\n'}
+[1.796075] (serial_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/bingflame/RoArm-M1/build/serial_ctrl/install.log'\n"}
+[1.805715] (-) TimerEvent: {}
+[1.862825] (serial_ctrl) CommandEnded: {'returncode': 0}
+[1.884835] (serial_ctrl) JobEnded: {'identifier': 'serial_ctrl', 'rc': 0}
+[1.905813] (-) TimerEvent: {}
+[1.968153] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 0}
+[1.971827] (astra_camera) JobStarted: {'identifier': 'astra_camera'}
+[1.989039] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'cmake'}
+[1.991613] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'build'}
+[1.992706] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bingflame/RoArm-M1/build/astra_camera', '--', '-j6', '-l6'], 'cwd': '/home/bingflame/RoArm-M1/build/astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'bingflame'), ('SSH_CLIENT', '127.0.0.1 51452 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bingflame/RoArm-M1/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/home/bingflame/xiugaihou/JetsonGPIO/build/'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bingflame'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/bingflame'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bingflame'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '12'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bingflame/.local/bin:/home/bingflame/anaconda3/bin:/home/bingflame/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bingflame/anaconda3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/bingflame/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bingflame/RoArm-M1/install/astra_camera_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bingflame/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/bingflame/RoArm-M1/build/astra_camera'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/bingflame/anaconda3/bin/conda'), ('SSH_CONNECTION', '127.0.0.1 51452 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bingflame/RoArm-M1/install/astra_camera_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/bingflame/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bingflame/RoArm-M1/install/astra_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[2.005916] (-) TimerEvent: {}
+[2.055721] (astra_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.106038] (-) TimerEvent: {}
+[2.206594] (-) TimerEvent: {}
+[2.307259] (-) TimerEvent: {}
+[2.360424] (astra_camera) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[2.361820] (astra_camera) StdoutLine: {'line': b'-- Found astra_camera_msgs: 1.0.1 (/home/bingflame/RoArm-M1/install/astra_camera_msgs/share/astra_camera_msgs/cmake)\n'}
+[2.407368] (-) TimerEvent: {}
+[2.425953] (astra_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.432128] (astra_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.446577] (astra_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.468856] (astra_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.493931] (astra_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.507444] (-) TimerEvent: {}
+[2.607846] (-) TimerEvent: {}
+[2.630006] (astra_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[2.685638] (astra_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.688421] (astra_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.707924] (-) TimerEvent: {}
+[2.808372] (-) TimerEvent: {}
+[2.879632] (astra_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.908459] (-) TimerEvent: {}
+[2.966740] (astra_camera) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[2.971544] (astra_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.996997] (astra_camera) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[3.001059] (astra_camera) StdoutLine: {'line': b'-- Found image_publisher: 3.0.6 (/opt/ros/humble/share/image_publisher/cmake)\n'}
+[3.008534] (-) TimerEvent: {}
+[3.101521] (astra_camera) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") \n'}
+[3.101919] (astra_camera) StdoutLine: {'line': b'-- Found JPEG library using standard module\n'}
+[3.103155] (astra_camera) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[3.103498] (astra_camera) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (JPEG) does\n'}
+[3.103639] (astra_camera) StderrLine: {'line': b'  not match the name of the calling package (JpegPkg).  This can lead to\n'}
+[3.103769] (astra_camera) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[3.103909] (astra_camera) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[3.104028] (astra_camera) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.104171] (astra_camera) StderrLine: {'line': b'  /usr/local/lib/cmake/libuvc/FindJpegPkg.cmake:58 (find_package_handle_standard_args)\n'}
+[3.104290] (astra_camera) StderrLine: {'line': b'  /usr/local/lib/cmake/libuvc/libuvcConfig.cmake:13 (find_package)\n'}
+[3.104405] (astra_camera) StderrLine: {'line': b'  CMakeLists.txt:26 (find_package)\n'}
+[3.104517] (astra_camera) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.104631] (astra_camera) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  \n'}
+[3.104752] (astra_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[3.108641] (-) TimerEvent: {}
+[3.112280] (astra_camera) StdoutLine: {'line': b'-- libusb-1.0 found using pkgconfig\n'}
+[3.124619] (astra_camera) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.143618] (astra_camera) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.150021] (astra_camera) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[3.208734] (-) TimerEvent: {}
+[3.261923] (astra_camera) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.8 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[3.275431] (astra_camera) StdoutLine: {'line': b'-- ORRBEC Machine : aarch64\n'}
+[3.275668] (astra_camera) StdoutLine: {'line': b'\n'}
+[3.275815] (astra_camera) StdoutLine: {'line': b'-- ORRBEC Machine Bits : 64\n'}
+[3.275942] (astra_camera) StdoutLine: {'line': b'\n'}
+[3.276080] (astra_camera) StdoutLine: {'line': b'-- ORRBEC : arm64\n'}
+[3.308826] (-) TimerEvent: {}
+[3.313756] (astra_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.408983] (-) TimerEvent: {}
+[3.509595] (-) TimerEvent: {}
+[3.546544] (astra_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.609728] (-) TimerEvent: {}
+[3.668426] (astra_camera) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:87 (add_library):\n'}
+[3.668927] (astra_camera) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target astra_camera because\n'}
+[3.669160] (astra_camera) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[3.669356] (astra_camera) StderrLine: {'line': b'  directories:\n'}
+[3.669534] (astra_camera) StderrLine: {'line': b'\n'}
+[3.669701] (astra_camera) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[3.669905] (astra_camera) StderrLine: {'line': b'      /home/bingflame/anaconda3/envs/ros2/lib\n'}
+[3.670077] (astra_camera) StderrLine: {'line': b'\n'}
+[3.670242] (astra_camera) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.670402] (astra_camera) StderrLine: {'line': b'\n'}
+[3.670559] (astra_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[3.709838] (-) TimerEvent: {}
+[3.715573] (astra_camera) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:124 (add_executable):\n'}
+[3.715954] (astra_camera) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target list_devices_node\n'}
+[3.716149] (astra_camera) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[3.716293] (astra_camera) StderrLine: {'line': b'  directories:\n'}
+[3.716426] (astra_camera) StderrLine: {'line': b'\n'}
+[3.716548] (astra_camera) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/aarch64-linux-gnu may be hidden by files in:\n'}
+[3.716672] (astra_camera) StderrLine: {'line': b'      /home/bingflame/anaconda3/envs/ros2/lib\n'}
+[3.716789] (astra_camera) StderrLine: {'line': b'\n'}
+[3.716906] (astra_camera) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.717049] (astra_camera) StderrLine: {'line': b'\n'}
+[3.717167] (astra_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[3.731231] (astra_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[3.736414] (astra_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/bingflame/RoArm-M1/build/astra_camera\n'}
+[3.804301] (astra_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target point_cloud_subscriber\x1b[0m\n'}
+[3.809924] (-) TimerEvent: {}
+[3.826294] (astra_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target astra_camera\x1b[0m\n'}
+[3.842227] (astra_camera) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o\x1b[0m\n'}
+[3.910154] (-) TimerEvent: {}
+[3.925236] (astra_camera) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyz.cpp.o\x1b[0m\n'}
+[3.925817] (astra_camera) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/device_listener.cpp.o\x1b[0m\n'}
+[3.926054] (astra_camera) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o\x1b[0m\n'}
+[3.927869] (astra_camera) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[3.941823] (astra_camera) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o\x1b[0m\n'}
+[4.010338] (-) TimerEvent: {}
+[4.111057] (-) TimerEvent: {}
+[4.211762] (-) TimerEvent: {}
+[4.312483] (-) TimerEvent: {}
+[4.366941] (astra_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kserial/serial.h: No such file or directory\n'}
+[4.367485] (astra_camera) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K<serial/serial.h>\x1b[m\x1b[K\n'}
+[4.367650] (astra_camera) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.367787] (astra_camera) StderrLine: {'line': b'compilation terminated.\n'}
+[4.373875] (astra_camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/point_cloud_subscriber.dir/build.make:76: CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o] Error 1\n'}
+[4.374295] (astra_camera) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_subscriber.dir/all] Error 2\n'}
+[4.374458] (astra_camera) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.390153] (astra_camera) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_frame_listener.cpp.o\x1b[0m\n'}
+[4.412675] (-) TimerEvent: {}
+[4.513386] (-) TimerEvent: {}
+[4.614099] (-) TimerEvent: {}
+[4.714822] (-) TimerEvent: {}
+[4.815545] (-) TimerEvent: {}
+[4.916298] (-) TimerEvent: {}
+[5.017065] (-) TimerEvent: {}
+[5.117836] (-) TimerEvent: {}
+[5.218642] (-) TimerEvent: {}
+[5.319446] (-) TimerEvent: {}
+[5.420234] (-) TimerEvent: {}
+[5.520976] (-) TimerEvent: {}
+[5.621725] (-) TimerEvent: {}
+[5.722498] (-) TimerEvent: {}
+[5.823274] (-) TimerEvent: {}
+[5.924094] (-) TimerEvent: {}
+[6.024854] (-) TimerEvent: {}
+[6.125616] (-) TimerEvent: {}
+[6.226379] (-) TimerEvent: {}
+[6.327125] (-) TimerEvent: {}
+[6.427874] (-) TimerEvent: {}
+[6.530724] (-) TimerEvent: {}
+[6.631522] (-) TimerEvent: {}
+[6.736007] (-) TimerEvent: {}
+[6.836761] (-) TimerEvent: {}
+[6.937488] (-) TimerEvent: {}
+[7.038215] (-) TimerEvent: {}
+[7.139041] (-) TimerEvent: {}
+[7.239813] (-) TimerEvent: {}
+[7.340611] (-) TimerEvent: {}
+[7.442152] (-) TimerEvent: {}
+[7.542924] (-) TimerEvent: {}
+[7.643706] (-) TimerEvent: {}
+[7.748304] (-) TimerEvent: {}
+[7.849024] (-) TimerEvent: {}
+[7.949765] (-) TimerEvent: {}
+[8.050507] (-) TimerEvent: {}
+[8.151294] (-) TimerEvent: {}
+[8.252151] (-) TimerEvent: {}
+[8.352898] (-) TimerEvent: {}
+[8.453651] (-) TimerEvent: {}
+[8.554453] (-) TimerEvent: {}
+[8.655273] (-) TimerEvent: {}
+[8.756110] (-) TimerEvent: {}
+[8.856864] (-) TimerEvent: {}
+[8.957630] (-) TimerEvent: {}
+[9.058391] (-) TimerEvent: {}
+[9.159191] (-) TimerEvent: {}
+[9.259961] (-) TimerEvent: {}
+[9.360711] (-) TimerEvent: {}
+[9.461462] (-) TimerEvent: {}
+[9.562225] (-) TimerEvent: {}
+[9.663004] (-) TimerEvent: {}
+[9.763818] (-) TimerEvent: {}
+[9.864601] (-) TimerEvent: {}
+[9.965367] (-) TimerEvent: {}
+[10.066120] (-) TimerEvent: {}
+[10.166863] (-) TimerEvent: {}
+[10.271482] (-) TimerEvent: {}
+[10.374040] (-) TimerEvent: {}
+[10.474811] (-) TimerEvent: {}
+[10.575573] (-) TimerEvent: {}
+[10.676289] (-) TimerEvent: {}
+[10.777009] (-) TimerEvent: {}
+[10.877775] (-) TimerEvent: {}
+[10.978542] (-) TimerEvent: {}
+[11.079346] (-) TimerEvent: {}
+[11.180135] (-) TimerEvent: {}
+[11.280898] (-) TimerEvent: {}
+[11.381667] (-) TimerEvent: {}
+[11.482435] (-) TimerEvent: {}
+[11.583239] (-) TimerEvent: {}
+[11.684019] (-) TimerEvent: {}
+[11.784819] (-) TimerEvent: {}
+[11.885612] (-) TimerEvent: {}
+[11.986368] (-) TimerEvent: {}
+[12.087113] (-) TimerEvent: {}
+[12.187855] (-) TimerEvent: {}
+[12.288616] (-) TimerEvent: {}
+[12.389788] (-) TimerEvent: {}
+[12.490555] (-) TimerEvent: {}
+[12.591330] (-) TimerEvent: {}
+[12.692395] (-) TimerEvent: {}
+[12.793162] (-) TimerEvent: {}
+[12.893944] (-) TimerEvent: {}
+[12.994699] (-) TimerEvent: {}
+[13.095490] (-) TimerEvent: {}
+[13.196239] (-) TimerEvent: {}
+[13.296971] (-) TimerEvent: {}
+[13.397717] (-) TimerEvent: {}
+[13.498474] (-) TimerEvent: {}
+[13.599234] (-) TimerEvent: {}
+[13.699972] (-) TimerEvent: {}
+[13.800769] (-) TimerEvent: {}
+[13.901532] (-) TimerEvent: {}
+[14.002303] (-) TimerEvent: {}
+[14.103092] (-) TimerEvent: {}
+[14.203860] (-) TimerEvent: {}
+[14.304651] (-) TimerEvent: {}
+[14.405399] (-) TimerEvent: {}
+[14.506163] (-) TimerEvent: {}
+[14.606985] (-) TimerEvent: {}
+[14.707797] (-) TimerEvent: {}
+[14.808709] (-) TimerEvent: {}
+[14.909563] (-) TimerEvent: {}
+[15.010345] (-) TimerEvent: {}
+[15.111090] (-) TimerEvent: {}
+[15.211867] (-) TimerEvent: {}
+[15.312653] (-) TimerEvent: {}
+[15.403872] (astra_camera) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o\x1b[0m\n'}
+[15.412820] (-) TimerEvent: {}
+[15.513531] (-) TimerEvent: {}
+[15.614253] (-) TimerEvent: {}
+[15.714973] (-) TimerEvent: {}
+[15.815675] (-) TimerEvent: {}
+[15.916434] (-) TimerEvent: {}
+[16.017220] (-) TimerEvent: {}
+[16.117929] (-) TimerEvent: {}
+[16.218685] (-) TimerEvent: {}
+[16.319415] (-) TimerEvent: {}
+[16.420203] (-) TimerEvent: {}
+[16.520958] (-) TimerEvent: {}
+[16.621732] (-) TimerEvent: {}
+[16.722530] (-) TimerEvent: {}
+[16.823288] (-) TimerEvent: {}
+[16.924125] (-) TimerEvent: {}
+[16.926752] (astra_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o\x1b[0m\n'}
+[17.024280] (-) TimerEvent: {}
+[17.125095] (-) TimerEvent: {}
+[17.225892] (-) TimerEvent: {}
+[17.326692] (-) TimerEvent: {}
+[17.427451] (-) TimerEvent: {}
+[17.528230] (-) TimerEvent: {}
+[17.628948] (-) TimerEvent: {}
+[17.729732] (-) TimerEvent: {}
+[17.830528] (-) TimerEvent: {}
+[17.931265] (-) TimerEvent: {}
+[18.032011] (-) TimerEvent: {}
+[18.132760] (-) TimerEvent: {}
+[18.233521] (-) TimerEvent: {}
+[18.334264] (-) TimerEvent: {}
+[18.435005] (-) TimerEvent: {}
+[18.535982] (-) TimerEvent: {}
+[18.636772] (-) TimerEvent: {}
+[18.680747] (astra_camera) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o\x1b[0m\n'}
+[18.736977] (-) TimerEvent: {}
+[18.837714] (-) TimerEvent: {}
+[18.938444] (-) TimerEvent: {}
+[19.039197] (-) TimerEvent: {}
+[19.139955] (-) TimerEvent: {}
+[19.240683] (-) TimerEvent: {}
+[19.341451] (-) TimerEvent: {}
+[19.442248] (-) TimerEvent: {}
+[19.542945] (-) TimerEvent: {}
+[19.643673] (-) TimerEvent: {}
+[19.744450] (-) TimerEvent: {}
+[19.845186] (-) TimerEvent: {}
+[19.945926] (-) TimerEvent: {}
+[20.046663] (-) TimerEvent: {}
+[20.147427] (-) TimerEvent: {}
+[20.248211] (-) TimerEvent: {}
+[20.348911] (-) TimerEvent: {}
+[20.449633] (-) TimerEvent: {}
+[20.550382] (-) TimerEvent: {}
+[20.651098] (-) TimerEvent: {}
+[20.751841] (-) TimerEvent: {}
+[20.852564] (-) TimerEvent: {}
+[20.953491] (-) TimerEvent: {}
+[21.054190] (-) TimerEvent: {}
+[21.154892] (-) TimerEvent: {}
+[21.255625] (-) TimerEvent: {}
+[21.356366] (-) TimerEvent: {}
+[21.457079] (-) TimerEvent: {}
+[21.557829] (-) TimerEvent: {}
+[21.658611] (-) TimerEvent: {}
+[21.759378] (-) TimerEvent: {}
+[21.860591] (-) TimerEvent: {}
+[21.961963] (-) TimerEvent: {}
+[22.062734] (-) TimerEvent: {}
+[22.163494] (-) TimerEvent: {}
+[22.264266] (-) TimerEvent: {}
+[22.365017] (-) TimerEvent: {}
+[22.465774] (-) TimerEvent: {}
+[22.566534] (-) TimerEvent: {}
+[22.667315] (-) TimerEvent: {}
+[22.768183] (-) TimerEvent: {}
+[22.868934] (-) TimerEvent: {}
+[22.969710] (-) TimerEvent: {}
+[23.054059] (astra_camera) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_param_backend.cpp.o\x1b[0m\n'}
+[23.070027] (-) TimerEvent: {}
+[23.170877] (-) TimerEvent: {}
+[23.271647] (-) TimerEvent: {}
+[23.372375] (-) TimerEvent: {}
+[23.473178] (-) TimerEvent: {}
+[23.574036] (-) TimerEvent: {}
+[23.674825] (-) TimerEvent: {}
+[23.775569] (-) TimerEvent: {}
+[23.876395] (-) TimerEvent: {}
+[23.977155] (-) TimerEvent: {}
+[24.077929] (-) TimerEvent: {}
+[24.178727] (-) TimerEvent: {}
+[24.279496] (-) TimerEvent: {}
+[24.380311] (-) TimerEvent: {}
+[24.481048] (-) TimerEvent: {}
+[24.581804] (-) TimerEvent: {}
+[24.684892] (-) TimerEvent: {}
+[24.785639] (-) TimerEvent: {}
+[24.886437] (-) TimerEvent: {}
+[24.987241] (-) TimerEvent: {}
+[25.088002] (-) TimerEvent: {}
+[25.188775] (-) TimerEvent: {}
+[25.289615] (-) TimerEvent: {}
+[25.391230] (-) TimerEvent: {}
+[25.492117] (-) TimerEvent: {}
+[25.592835] (-) TimerEvent: {}
+[25.693591] (-) TimerEvent: {}
+[25.794306] (-) TimerEvent: {}
+[25.895061] (-) TimerEvent: {}
+[25.995833] (-) TimerEvent: {}
+[26.096683] (-) TimerEvent: {}
+[26.197452] (-) TimerEvent: {}
+[26.298199] (-) TimerEvent: {}
+[26.398975] (-) TimerEvent: {}
+[26.499742] (-) TimerEvent: {}
+[26.600553] (-) TimerEvent: {}
+[26.701296] (-) TimerEvent: {}
+[26.802037] (-) TimerEvent: {}
+[26.902796] (-) TimerEvent: {}
+[27.003536] (-) TimerEvent: {}
+[27.104285] (-) TimerEvent: {}
+[27.205038] (-) TimerEvent: {}
+[27.305806] (-) TimerEvent: {}
+[27.406554] (-) TimerEvent: {}
+[27.507280] (-) TimerEvent: {}
+[27.604440] (astra_camera) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o\x1b[0m\n'}
+[27.609381] (-) TimerEvent: {}
+[27.711133] (-) TimerEvent: {}
+[27.811845] (-) TimerEvent: {}
+[27.912652] (-) TimerEvent: {}
+[28.013380] (-) TimerEvent: {}
+[28.114140] (-) TimerEvent: {}
+[28.214920] (-) TimerEvent: {}
+[28.315730] (-) TimerEvent: {}
+[28.416470] (-) TimerEvent: {}
+[28.517201] (-) TimerEvent: {}
+[28.617892] (-) TimerEvent: {}
+[28.718602] (-) TimerEvent: {}
+[28.819503] (-) TimerEvent: {}
+[28.920316] (-) TimerEvent: {}
+[29.021107] (-) TimerEvent: {}
+[29.121835] (-) TimerEvent: {}
+[29.222706] (-) TimerEvent: {}
+[29.323471] (-) TimerEvent: {}
+[29.424229] (-) TimerEvent: {}
+[29.525160] (-) TimerEvent: {}
+[29.625919] (-) TimerEvent: {}
+[29.726683] (-) TimerEvent: {}
+[29.776974] (astra_camera) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/utils.cpp.o\x1b[0m\n'}
+[29.826878] (-) TimerEvent: {}
+[29.927609] (-) TimerEvent: {}
+[30.028385] (-) TimerEvent: {}
+[30.129115] (-) TimerEvent: {}
+[30.229880] (-) TimerEvent: {}
+[30.330667] (-) TimerEvent: {}
+[30.431420] (-) TimerEvent: {}
+[30.532199] (-) TimerEvent: {}
+[30.632942] (-) TimerEvent: {}
+[30.733645] (-) TimerEvent: {}
+[30.834386] (-) TimerEvent: {}
+[30.935128] (-) TimerEvent: {}
+[31.035884] (-) TimerEvent: {}
+[31.136674] (-) TimerEvent: {}
+[31.237415] (-) TimerEvent: {}
+[31.338205] (-) TimerEvent: {}
+[31.439003] (-) TimerEvent: {}
+[31.539785] (-) TimerEvent: {}
+[31.640576] (-) TimerEvent: {}
+[31.741342] (-) TimerEvent: {}
+[31.842091] (-) TimerEvent: {}
+[31.943088] (-) TimerEvent: {}
+[32.043859] (-) TimerEvent: {}
+[32.144671] (-) TimerEvent: {}
+[32.245365] (-) TimerEvent: {}
+[32.346117] (-) TimerEvent: {}
+[32.446881] (-) TimerEvent: {}
+[32.548466] (-) TimerEvent: {}
+[32.649204] (-) TimerEvent: {}
+[32.777978] (-) TimerEvent: {}
+[32.878739] (-) TimerEvent: {}
+[32.979503] (-) TimerEvent: {}
+[33.080250] (-) TimerEvent: {}
+[33.180996] (-) TimerEvent: {}
+[33.281789] (-) TimerEvent: {}
+[33.382554] (-) TimerEvent: {}
+[33.483341] (-) TimerEvent: {}
+[33.584147] (-) TimerEvent: {}
+[33.684879] (-) TimerEvent: {}
+[33.785617] (-) TimerEvent: {}
+[33.886347] (-) TimerEvent: {}
+[33.987108] (-) TimerEvent: {}
+[34.088059] (-) TimerEvent: {}
+[34.188799] (-) TimerEvent: {}
+[34.289512] (-) TimerEvent: {}
+[34.390257] (-) TimerEvent: {}
+[34.490965] (-) TimerEvent: {}
+[34.594568] (-) TimerEvent: {}
+[34.695326] (-) TimerEvent: {}
+[34.796106] (-) TimerEvent: {}
+[34.896815] (-) TimerEvent: {}
+[34.997570] (-) TimerEvent: {}
+[35.098530] (-) TimerEvent: {}
+[35.199283] (-) TimerEvent: {}
+[35.300005] (-) TimerEvent: {}
+[35.356185] (astra_camera) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/uvc_camera_driver.cpp.o\x1b[0m\n'}
+[35.400231] (-) TimerEvent: {}
+[35.500928] (-) TimerEvent: {}
+[35.601652] (-) TimerEvent: {}
+[35.702351] (-) TimerEvent: {}
+[35.803066] (-) TimerEvent: {}
+[35.903783] (-) TimerEvent: {}
+[36.004527] (-) TimerEvent: {}
+[36.105260] (-) TimerEvent: {}
+[36.205999] (-) TimerEvent: {}
+[36.306701] (-) TimerEvent: {}
+[36.407435] (-) TimerEvent: {}
+[36.508168] (-) TimerEvent: {}
+[36.608892] (-) TimerEvent: {}
+[36.709740] (-) TimerEvent: {}
+[36.810478] (-) TimerEvent: {}
+[36.911214] (-) TimerEvent: {}
+[37.011976] (-) TimerEvent: {}
+[37.112728] (-) TimerEvent: {}
+[37.213482] (-) TimerEvent: {}
+[37.314222] (-) TimerEvent: {}
+[37.414967] (-) TimerEvent: {}
+[37.515708] (-) TimerEvent: {}
+[37.616407] (-) TimerEvent: {}
+[37.717108] (-) TimerEvent: {}
+[37.817857] (-) TimerEvent: {}
+[37.918575] (-) TimerEvent: {}
+[38.019293] (-) TimerEvent: {}
+[38.120079] (-) TimerEvent: {}
+[38.221048] (-) TimerEvent: {}
+[38.321803] (-) TimerEvent: {}
+[38.422578] (-) TimerEvent: {}
+[38.523367] (-) TimerEvent: {}
+[38.624147] (-) TimerEvent: {}
+[38.724870] (-) TimerEvent: {}
+[38.825609] (-) TimerEvent: {}
+[38.926408] (-) TimerEvent: {}
+[39.027195] (-) TimerEvent: {}
+[39.127940] (-) TimerEvent: {}
+[39.228734] (-) TimerEvent: {}
+[39.329480] (-) TimerEvent: {}
+[39.430236] (-) TimerEvent: {}
+[39.531002] (-) TimerEvent: {}
+[39.631781] (-) TimerEvent: {}
+[39.732560] (-) TimerEvent: {}
+[39.833317] (-) TimerEvent: {}
+[39.934045] (-) TimerEvent: {}
+[40.034822] (-) TimerEvent: {}
+[40.135577] (-) TimerEvent: {}
+[40.236373] (-) TimerEvent: {}
+[40.337126] (-) TimerEvent: {}
+[40.437875] (-) TimerEvent: {}
+[40.543535] (-) TimerEvent: {}
+[40.686742] (-) TimerEvent: {}
+[40.916892] (-) TimerEvent: {}
+[41.209038] (-) TimerEvent: {}
+[41.527964] (-) TimerEvent: {}
+[42.273787] (-) TimerEvent: {}
+[43.158160] (-) TimerEvent: {}
+[44.073116] (-) TimerEvent: {}
+[44.811767] (-) TimerEvent: {}
+[45.363988] (-) TimerEvent: {}
+[45.880644] (-) TimerEvent: {}
+[46.717992] (-) TimerEvent: {}
+[47.564993] (-) TimerEvent: {}
+[48.306656] (-) TimerEvent: {}
+[49.119356] (-) TimerEvent: {}
+[50.152069] (-) TimerEvent: {}
+[50.806416] (-) TimerEvent: {}
+[51.657175] (-) TimerEvent: {}
+[52.777662] (-) TimerEvent: {}
+[53.619243] (-) TimerEvent: {}
+[54.470507] (-) TimerEvent: {}
+[55.422366] (-) TimerEvent: {}
+[56.487893] (-) TimerEvent: {}
+[57.724123] (-) TimerEvent: {}
+[57.934792] (-) TimerEvent: {}
+[59.495117] (-) TimerEvent: {}
+[60.421823] (-) TimerEvent: {}
+[62.603047] (-) TimerEvent: {}
+[64.735945] (-) TimerEvent: {}
+[64.839878] (-) TimerEvent: {}
+[64.940594] (-) TimerEvent: {}
+[65.041228] (-) TimerEvent: {}
+[65.141942] (-) TimerEvent: {}
+[65.242720] (-) TimerEvent: {}
+[65.343351] (-) TimerEvent: {}
+[65.444189] (-) TimerEvent: {}
+[65.468901] (astra_camera) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[65.473624] (astra_camera) StderrLine: {'line': b'compilation terminated.\n'}
+[65.474293] (astra_camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:90: CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o] Error 1\n'}
+[65.476022] (astra_camera) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[65.544379] (-) TimerEvent: {}
+[65.645132] (-) TimerEvent: {}
+[65.745858] (-) TimerEvent: {}
+[65.846601] (-) TimerEvent: {}
+[65.947355] (-) TimerEvent: {}
+[66.048116] (-) TimerEvent: {}
+[66.148869] (-) TimerEvent: {}
+[66.249611] (-) TimerEvent: {}
+[66.350315] (-) TimerEvent: {}
+[66.451042] (-) TimerEvent: {}
+[66.551796] (-) TimerEvent: {}
+[66.652557] (-) TimerEvent: {}
+[66.753276] (-) TimerEvent: {}
+[66.853976] (-) TimerEvent: {}
+[66.954712] (-) TimerEvent: {}
+[67.055424] (-) TimerEvent: {}
+[67.156139] (-) TimerEvent: {}
+[67.256816] (-) TimerEvent: {}
+[67.357729] (-) TimerEvent: {}
+[67.458419] (-) TimerEvent: {}
+[67.559116] (-) TimerEvent: {}
+[67.659847] (-) TimerEvent: {}
+[67.760562] (-) TimerEvent: {}
+[67.861265] (-) TimerEvent: {}
+[67.961947] (-) TimerEvent: {}
+[68.062679] (-) TimerEvent: {}
+[68.163414] (-) TimerEvent: {}
+[68.264245] (-) TimerEvent: {}
+[68.364994] (-) TimerEvent: {}
+[68.465711] (-) TimerEvent: {}
+[68.566787] (-) TimerEvent: {}
+[68.667559] (-) TimerEvent: {}
+[68.768301] (-) TimerEvent: {}
+[68.869038] (-) TimerEvent: {}
+[68.969825] (-) TimerEvent: {}
+[69.070610] (-) TimerEvent: {}
+[69.171385] (-) TimerEvent: {}
+[69.272144] (-) TimerEvent: {}
+[69.372859] (-) TimerEvent: {}
+[69.473612] (-) TimerEvent: {}
+[69.574350] (-) TimerEvent: {}
+[69.675090] (-) TimerEvent: {}
+[69.776023] (-) TimerEvent: {}
+[69.876783] (-) TimerEvent: {}
+[69.977506] (-) TimerEvent: {}
+[70.078216] (-) TimerEvent: {}
+[70.178927] (-) TimerEvent: {}
+[70.279639] (-) TimerEvent: {}
+[70.380376] (-) TimerEvent: {}
+[70.481094] (-) TimerEvent: {}
+[70.581799] (-) TimerEvent: {}
+[70.682515] (-) TimerEvent: {}
+[70.783225] (-) TimerEvent: {}
+[70.883939] (-) TimerEvent: {}
+[70.984669] (-) TimerEvent: {}
+[71.085375] (-) TimerEvent: {}
+[71.186079] (-) TimerEvent: {}
+[71.286765] (-) TimerEvent: {}
+[71.387470] (-) TimerEvent: {}
+[71.488205] (-) TimerEvent: {}
+[71.588903] (-) TimerEvent: {}
+[71.689626] (-) TimerEvent: {}
+[71.790329] (-) TimerEvent: {}
+[71.891067] (-) TimerEvent: {}
+[71.991751] (-) TimerEvent: {}
+[72.092456] (-) TimerEvent: {}
+[72.193143] (-) TimerEvent: {}
+[72.293864] (-) TimerEvent: {}
+[72.394620] (-) TimerEvent: {}
+[72.495314] (-) TimerEvent: {}
+[72.596031] (-) TimerEvent: {}
+[72.696750] (-) TimerEvent: {}
+[72.797455] (-) TimerEvent: {}
+[72.898163] (-) TimerEvent: {}
+[72.998848] (-) TimerEvent: {}
+[73.099518] (-) TimerEvent: {}
+[73.200217] (-) TimerEvent: {}
+[73.300914] (-) TimerEvent: {}
+[73.401582] (-) TimerEvent: {}
+[73.502690] (-) TimerEvent: {}
+[73.603601] (-) TimerEvent: {}
+[73.704425] (-) TimerEvent: {}
+[73.805110] (-) TimerEvent: {}
+[73.905791] (-) TimerEvent: {}
+[74.006495] (-) TimerEvent: {}
+[74.107179] (-) TimerEvent: {}
+[74.207860] (-) TimerEvent: {}
+[74.308533] (-) TimerEvent: {}
+[74.409209] (-) TimerEvent: {}
+[74.509917] (-) TimerEvent: {}
+[74.610602] (-) TimerEvent: {}
+[74.711310] (-) TimerEvent: {}
+[74.812000] (-) TimerEvent: {}
+[74.912667] (-) TimerEvent: {}
+[75.013341] (-) TimerEvent: {}
+[75.114007] (-) TimerEvent: {}
+[75.214700] (-) TimerEvent: {}
+[75.315373] (-) TimerEvent: {}
+[75.416091] (-) TimerEvent: {}
+[75.516764] (-) TimerEvent: {}
+[75.617469] (-) TimerEvent: {}
+[75.718181] (-) TimerEvent: {}
+[75.818862] (-) TimerEvent: {}
+[75.919561] (-) TimerEvent: {}
+[76.020278] (-) TimerEvent: {}
+[76.120966] (-) TimerEvent: {}
+[76.221694] (-) TimerEvent: {}
+[76.322400] (-) TimerEvent: {}
+[76.423056] (-) TimerEvent: {}
+[76.523756] (-) TimerEvent: {}
+[76.624443] (-) TimerEvent: {}
+[76.725147] (-) TimerEvent: {}
+[76.825888] (-) TimerEvent: {}
+[76.926600] (-) TimerEvent: {}
+[77.027325] (-) TimerEvent: {}
+[77.128031] (-) TimerEvent: {}
+[77.228731] (-) TimerEvent: {}
+[77.329374] (-) TimerEvent: {}
+[77.430023] (-) TimerEvent: {}
+[77.530678] (-) TimerEvent: {}
+[77.631327] (-) TimerEvent: {}
+[77.731996] (-) TimerEvent: {}
+[77.832739] (-) TimerEvent: {}
+[77.933406] (-) TimerEvent: {}
+[78.034063] (-) TimerEvent: {}
+[78.134727] (-) TimerEvent: {}
+[78.235384] (-) TimerEvent: {}
+[78.336037] (-) TimerEvent: {}
+[78.436702] (-) TimerEvent: {}
+[78.537330] (-) TimerEvent: {}
+[78.637967] (-) TimerEvent: {}
+[78.738638] (-) TimerEvent: {}
+[78.839301] (-) TimerEvent: {}
+[78.939953] (-) TimerEvent: {}
+[79.040637] (-) TimerEvent: {}
+[79.141279] (-) TimerEvent: {}
+[79.241917] (-) TimerEvent: {}
+[79.342575] (-) TimerEvent: {}
+[79.443225] (-) TimerEvent: {}
+[79.543879] (-) TimerEvent: {}
+[79.644550] (-) TimerEvent: {}
+[79.745206] (-) TimerEvent: {}
+[79.845902] (-) TimerEvent: {}
+[79.946547] (-) TimerEvent: {}
+[80.047188] (-) TimerEvent: {}
+[80.147838] (-) TimerEvent: {}
+[80.248507] (-) TimerEvent: {}
+[80.349147] (-) TimerEvent: {}
+[80.449782] (-) TimerEvent: {}
+[80.550432] (-) TimerEvent: {}
+[80.651066] (-) TimerEvent: {}
+[80.751705] (-) TimerEvent: {}
+[80.852412] (-) TimerEvent: {}
+[80.953083] (-) TimerEvent: {}
+[81.053741] (-) TimerEvent: {}
+[81.154379] (-) TimerEvent: {}
+[81.255058] (-) TimerEvent: {}
+[81.355717] (-) TimerEvent: {}
+[81.456370] (-) TimerEvent: {}
+[81.557041] (-) TimerEvent: {}
+[81.657662] (-) TimerEvent: {}
+[81.758311] (-) TimerEvent: {}
+[81.858957] (-) TimerEvent: {}
+[81.959582] (-) TimerEvent: {}
+[82.060198] (-) TimerEvent: {}
+[82.160840] (-) TimerEvent: {}
+[82.261443] (-) TimerEvent: {}
+[82.362048] (-) TimerEvent: {}
+[82.462662] (-) TimerEvent: {}
+[82.563288] (-) TimerEvent: {}
+[82.663905] (-) TimerEvent: {}
+[82.764558] (-) TimerEvent: {}
+[82.865200] (-) TimerEvent: {}
+[82.965829] (-) TimerEvent: {}
+[83.066468] (-) TimerEvent: {}
+[83.167094] (-) TimerEvent: {}
+[83.267731] (-) TimerEvent: {}
+[83.368366] (-) TimerEvent: {}
+[83.468971] (-) TimerEvent: {}
+[83.569597] (-) TimerEvent: {}
+[83.670204] (-) TimerEvent: {}
+[83.770830] (-) TimerEvent: {}
+[83.871462] (-) TimerEvent: {}
+[83.972111] (-) TimerEvent: {}
+[84.072736] (-) TimerEvent: {}
+[84.173372] (-) TimerEvent: {}
+[84.273982] (-) TimerEvent: {}
+[84.374587] (-) TimerEvent: {}
+[84.475208] (-) TimerEvent: {}
+[84.575821] (-) TimerEvent: {}
+[84.676473] (-) TimerEvent: {}
+[84.777103] (-) TimerEvent: {}
+[84.877746] (-) TimerEvent: {}
+[84.978377] (-) TimerEvent: {}
+[85.079021] (-) TimerEvent: {}
+[85.179657] (-) TimerEvent: {}
+[85.280286] (-) TimerEvent: {}
+[85.380906] (-) TimerEvent: {}
+[85.481527] (-) TimerEvent: {}
+[85.582130] (-) TimerEvent: {}
+[85.682740] (-) TimerEvent: {}
+[85.783356] (-) TimerEvent: {}
+[85.883988] (-) TimerEvent: {}
+[85.984662] (-) TimerEvent: {}
+[86.085297] (-) TimerEvent: {}
+[86.185941] (-) TimerEvent: {}
+[86.286573] (-) TimerEvent: {}
+[86.387205] (-) TimerEvent: {}
+[86.487842] (-) TimerEvent: {}
+[86.588520] (-) TimerEvent: {}
+[86.689133] (-) TimerEvent: {}
+[86.789736] (-) TimerEvent: {}
+[86.890399] (-) TimerEvent: {}
+[86.991044] (-) TimerEvent: {}
+[87.091704] (-) TimerEvent: {}
+[87.192336] (-) TimerEvent: {}
+[87.292947] (-) TimerEvent: {}
+[87.393573] (-) TimerEvent: {}
+[87.494206] (-) TimerEvent: {}
+[87.594847] (-) TimerEvent: {}
+[87.695502] (-) TimerEvent: {}
+[87.796188] (-) TimerEvent: {}
+[87.896877] (-) TimerEvent: {}
+[87.997615] (-) TimerEvent: {}
+[88.098359] (-) TimerEvent: {}
+[88.199292] (-) TimerEvent: {}
+[88.300230] (-) TimerEvent: {}
+[88.400930] (-) TimerEvent: {}
+[88.501633] (-) TimerEvent: {}
+[88.602324] (-) TimerEvent: {}
+[88.703258] (-) TimerEvent: {}
+[88.804210] (-) TimerEvent: {}
+[88.904900] (-) TimerEvent: {}
+[89.005593] (-) TimerEvent: {}
+[89.106313] (-) TimerEvent: {}
+[89.207239] (-) TimerEvent: {}
+[89.307962] (-) TimerEvent: {}
+[89.408704] (-) TimerEvent: {}
+[89.509407] (-) TimerEvent: {}
+[89.532276] (astra_camera) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/astra_camera.dir/all] Error 2\n'}
+[89.534744] (astra_camera) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[89.588323] (astra_camera) CommandEnded: {'returncode': 2}
+[89.609527] (-) TimerEvent: {}
+[89.710155] (-) TimerEvent: {}
+[89.811535] (astra_camera) JobEnded: {'identifier': 'astra_camera', 'rc': 2}
+[89.814625] (-) TimerEvent: {}
+[89.825194] (-) EventReactorShutdown: {}

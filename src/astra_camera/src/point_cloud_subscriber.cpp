@@ -1,7 +1,12 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <sensor_msgs/point_cloud2_iterator.hpp>
+#include <std_msgs/msg/string.hpp>
 #include <limits>
+#include <cstring>
+#include <unistd.h>
+#include <fcntl.h>
+#include <termios.h>
 
 class DepthSubscriber : public rclcpp::Node {
  public:
@@ -9,20 +14,19 @@ class DepthSubscriber : public rclcpp::Node {
     // 设置 QoS 策略
     auto qos = rclcpp::QoS(rclcpp::KeepLast(10)).best_effort();
 
+    // 订阅 PointCloud2 消息
     subscription_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
         "/camera/depth/points",  // 修改为正确的主题名称
         qos, std::bind(&DepthSubscriber::listener_callback, this, std::placeholders::_1));
+
+    // 订阅 serial_data 消息
+    serial_subscription_ = this->create_subscription<std_msgs::msg::String>(
+        "serial_data",  // 修改为正确的主题名称
+        qos, std::bind(&DepthSubscriber::serial_callback, this, std::placeholders::_1));
   }
 
  private:
   void listener_callback(const sensor_msgs::msg::PointCloud2::SharedPtr msg) {
-    // 打印点云数据的字段信息
-    // RCLCPP_INFO(this->get_logger(), "PointCloud2 fields:");
-    // for (const auto& field : msg->fields) {
-    //   RCLCPP_INFO(this->get_logger(), "  name: %s, offset: %d, datatype: %d, count: %d",
-    //               field.name.c_str(), field.offset, field.datatype, field.count);
-    // }
-
     sensor_msgs::PointCloud2ConstIterator<float> iter_x(*msg, "x");
     sensor_msgs::PointCloud2ConstIterator<float> iter_y(*msg, "y");
     sensor_msgs::PointCloud2ConstIterator<float> iter_z(*msg, "z");
@@ -43,12 +47,18 @@ class DepthSubscriber : public rclcpp::Node {
 
       if (u == 108 && v == 117) {  // 假设你想获取 (1, 2) 点的深度
         RCLCPP_INFO(this->get_logger(), "Depth at (1, 2): %.2f meters", z);
+
         break;
       }
     }
   }
 
+  void serial_callback(const std_msgs::msg::String::SharedPtr msg) {
+    RCLCPP_INFO(this->get_logger(), "Received serial data: %s", msg->data.c_str());
+  }
+
   rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_;
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr serial_subscription_;
 };
 
 int main(int argc, char* argv[]) {

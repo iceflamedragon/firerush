@@ -1,0 +1,21 @@
+[1.338s] Invoking command in '/home/bingflame/RoArm-M1/src/serial_ctrl': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/RoArm-M1/build/serial_ctrl/build install --record /home/bingflame/RoArm-M1/build/serial_ctrl/install.log --single-version-externally-managed install_data
+[1.817s] running egg_info
+[1.818s] writing ../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO
+[1.818s] writing dependency_links to ../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt
+[1.819s] writing entry points to ../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt
+[1.819s] writing requirements to ../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt
+[1.819s] writing top-level names to ../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt
+[1.824s] reading manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[1.825s] writing manifest file '../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[1.826s] running build
+[1.826s] running build_py
+[1.826s] running install
+[1.827s] running install_lib
+[1.830s] running install_data
+[1.830s] running install_egg_info
+[1.834s] removing '/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[1.838s] Copying ../../build/serial_ctrl/serial_ctrl.egg-info to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info
+[1.844s] running install_scripts
+[1.896s] Installing serial_ctrl script to /home/bingflame/RoArm-M1/install/serial_ctrl/lib/serial_ctrl
+[1.896s] writing list of installed files to '/home/bingflame/RoArm-M1/build/serial_ctrl/install.log'
+[1.982s] Invoked command in '/home/bingflame/RoArm-M1/src/serial_ctrl' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_ctrl build --build-base /home/bingflame/RoArm-M1/build/serial_ctrl/build install --record /home/bingflame/RoArm-M1/build/serial_ctrl/install.log --single-version-externally-managed install_data
