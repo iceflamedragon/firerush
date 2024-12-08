@@ -26,3 +26,4 @@ point_cloud_subscriber是处理节点，订阅深度相机，串口接受信息(
 jetson已接受到串口信息，是ttyTHS1，
 新建立了一个节点读取串口信息
 激光雷达     
+深度图480rows，640cols

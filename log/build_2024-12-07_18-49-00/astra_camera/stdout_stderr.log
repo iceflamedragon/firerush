@@ -1,0 +1,79 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_subscriber[0m
+[  5%] [32mBuilding CXX object CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o[0m
+[ 83%] Built target astra_camera
+[ 94%] Built target list_devices_node
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:74:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   74 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In constructor ‘[01m[KDepthSubscriber::DepthSubscriber()[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   19 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::PointCloud2>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   24 |     [01;31m[Kserial_subscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:26:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_callback[m[K’ is not a member of ‘[01m[KDepthSubscriber[m[K’
+   26 |         qos, std::bind(&DepthSubscriber::[01;31m[Kserial_callback[m[K, this, std::placeholders::_1));
+      |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   29 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>("depth_info", qos);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In member function ‘[01m[Kvoid DepthSubscriber::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   69 |       [01;31m[Kpublisher_[m[K->publish(*depth_msg);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:1[m[K:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In function ‘[01m[Kvoid serial_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:77:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   77 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received serial data: %s", msg->data.c_str());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:77:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:77:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received serial data: %s", msg->data.c_str());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:77:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received serial data: %s", msg->data.c_str());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:77:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received serial data: %s", msg->data.c_str());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:1[m[K:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:77:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   77 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received serial data: %s", msg->data.c_str());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:77:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   77 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received serial data: %s", msg->data.c_str());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K At global scope:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:83:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   83 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_subscriber.dir/build.make:76: CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

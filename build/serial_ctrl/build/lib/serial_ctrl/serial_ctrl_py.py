@@ -28,13 +28,13 @@ class MinimalSubscriber(Node):
             depth=10
         )
         
-        # 订阅 joint_states 话题
-        self.subscription = self.create_subscription(
-            JointState,
-            'joint_states',
-            self.listener_callback,
-            qos_profile)
-        self.subscription  # prevent unused variable warning
+        # # 订阅 joint_states 话题
+        # self.subscription = self.create_subscription(
+        #     JointState,
+        #     'joint_states',
+        #     self.listener_callback,
+        #     qos_profile)
+        # self.subscription  # prevent unused variable warning
         
         # 订阅 depth_info 话题
         self.custom_subscription = self.create_subscription(
@@ -51,11 +51,19 @@ class MinimalSubscriber(Node):
             getPos = int(2047 + (direcInput * radInput / 3.1415926 * 2048 * multiInput) + 0.5)
             return getPos
 
-    def listener_callback(self, msg):
-        x, y, z = self.x, self.y, self.z
-        print("x是"+str(x))
-        print("x是"+str(y))
-        print("x是"+str(z))
+        
+
+    def custom_topic_callback(self, msg):
+        # 处理 depth_info 话题的消息
+        
+        x, y, z = msg.data  # 获取三个数字
+        # self.get_logger().info(f'Received custom values: x={x}, y={y}, z={z}')
+        
+        # # 你可以在这里添加更多的逻辑来处理 x, y, z
+        
+        # print("x是"+str(x))
+        # print("x是"+str(y))
+        # print("x是"+str(z))
         # 进行逆运动学解算
         joint_angles = self.inverse_kinematics(x, y, z)
         
@@ -70,15 +78,6 @@ class MinimalSubscriber(Node):
         
         ser.write(data.encode())
         print(data)
-
-    def custom_topic_callback(self, msg):
-        # 处理 depth_info 话题的消息
-        
-        x, y, z = msg.data  # 获取三个数字
-        self.get_logger().info(f'Received custom values: x={x}, y={y}, z={z}')
-        
-        # 你可以在这里添加更多的逻辑来处理 x, y, z
-        self.x, self.y, self.z = x, y, z
 
 
     def inverse_kinematics(self, x, y, z):
