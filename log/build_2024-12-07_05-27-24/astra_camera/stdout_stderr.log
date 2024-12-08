@@ -1,0 +1,72 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_subscriber[0m
+[ 77%] Built target astra_camera
+[ 83%] [32mBuilding CXX object CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o[0m
+[ 94%] Built target list_devices_node
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:64:45:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   64 |   void serial_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) {
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:64:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   64 |   void serial_callback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:64:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   64 |   void serial_callback[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                       [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                              [32m[K)[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:64:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   64 |   void serial_callback(const std_msgs::msg::String::[01;31m[KSharedPtr[m[K msg) {
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:64:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   64 |   void serial_callback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:39:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   69 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr serial_subscription_;
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr serial_subscription_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   69 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K serial_subscription_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:69:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   69 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Kserial_subscription_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[Krcl_subscription_t[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In constructor ‘[01m[KDepthSubscriber::DepthSubscriber()[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   23 |     [01;31m[Kserial_subscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:23:69:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   23 |     serial_subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KString[m[K>(
+      |                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:23:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDepthSubscriber::create_subscription<<expression error> >(const char [12], rclcpp::QoS&, std::_Bind_helper<false, void (DepthSubscriber::*)(...), DepthSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   23 |     serial_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   24 | [01;31m[K        "serial_data",  // 修改为正确的主题名称[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                             
+   25 | [01;31m[K        qos, std::bind(&DepthSubscriber::serial_callback, this, std::placeholders::_1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:23:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |     serial_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   24 | [01;31m[K        "serial_data",  // 修改为正确的主题名称[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                             
+   25 | [01;31m[K        qos, std::bind(&DepthSubscriber::serial_callback, this, std::placeholders::_1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_subscriber.dir/build.make:76: CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

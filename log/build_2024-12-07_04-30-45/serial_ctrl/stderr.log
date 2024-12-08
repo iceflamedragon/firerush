@@ -1,0 +1,5 @@
+  File "/home/bingflame/RoArm-M1/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl/serial_ctrl_py.py", line 27
+    // 创建发布者，发布 std_msgs::msg::String 类型的消息
+            ^
+SyntaxError: invalid character '，' (U+FF0C)
+

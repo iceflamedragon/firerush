@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_subscriber[0m
+[ 77%] Built target astra_camera
+[ 83%] [32mBuilding CXX object CMakeFiles/point_cloud_subscriber.dir/src/point_cloud_subscriber.cpp.o[0m
+[ 94%] Built target list_devices_node
