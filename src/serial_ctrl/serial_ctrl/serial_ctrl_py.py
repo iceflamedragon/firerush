@@ -9,7 +9,8 @@ import json
 import serial
 import numpy as np
 
-ser = serial.Serial("/dev/ttyUSB0", 115200)
+ser1 = serial.Serial("/dev/ttyUSB0", 115200)
+
 
 
 class MinimalSubscriber(Node):
@@ -76,7 +77,7 @@ class MinimalSubscriber(Node):
         
         data = json.dumps({'T':3,'P1':join1,'P2':join2,'P3':join3,'P4':join4,'P5':join5,'S1':0,'S2':0,'S3':0,'S4':0,'S5':0,'A1':60,'A2':60,'A3':60,'A4':60,'A5':60})
         
-        ser.write(data.encode())
+        ser1.write(data.encode())
         print(data)
 
 

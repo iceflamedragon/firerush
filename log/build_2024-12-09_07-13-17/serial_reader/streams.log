@@ -1,0 +1,21 @@
+[1.932s] Invoking command in '/home/bingflame/RoArm-M1/src/serial_reader': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_reader build --build-base /home/bingflame/RoArm-M1/build/serial_reader/build install --record /home/bingflame/RoArm-M1/build/serial_reader/install.log --single-version-externally-managed install_data
+[2.434s] running egg_info
+[2.436s] writing ../../build/serial_reader/serial_reader.egg-info/PKG-INFO
+[2.436s] writing dependency_links to ../../build/serial_reader/serial_reader.egg-info/dependency_links.txt
+[2.437s] writing entry points to ../../build/serial_reader/serial_reader.egg-info/entry_points.txt
+[2.438s] writing requirements to ../../build/serial_reader/serial_reader.egg-info/requires.txt
+[2.438s] writing top-level names to ../../build/serial_reader/serial_reader.egg-info/top_level.txt
+[2.442s] reading manifest file '../../build/serial_reader/serial_reader.egg-info/SOURCES.txt'
+[2.444s] writing manifest file '../../build/serial_reader/serial_reader.egg-info/SOURCES.txt'
+[2.444s] running build
+[2.445s] running build_py
+[2.445s] running install
+[2.445s] running install_lib
+[2.448s] running install_data
+[2.448s] running install_egg_info
+[2.453s] removing '/home/bingflame/RoArm-M1/install/serial_reader/lib/python3.10/site-packages/serial_reader-0.0.0-py3.10.egg-info' (and everything under it)
+[2.453s] Copying ../../build/serial_reader/serial_reader.egg-info to /home/bingflame/RoArm-M1/install/serial_reader/lib/python3.10/site-packages/serial_reader-0.0.0-py3.10.egg-info
+[2.455s] running install_scripts
+[2.503s] Installing serial_reader_node script to /home/bingflame/RoArm-M1/install/serial_reader/lib/serial_reader
+[2.504s] writing list of installed files to '/home/bingflame/RoArm-M1/build/serial_reader/install.log'
+[2.685s] Invoked command in '/home/bingflame/RoArm-M1/src/serial_reader' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bingflame/RoArm-M1/build/serial_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bingflame/RoArm-M1/install/serial_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_reader build --build-base /home/bingflame/RoArm-M1/build/serial_reader/build install --record /home/bingflame/RoArm-M1/build/serial_reader/install.log --single-version-externally-managed install_data

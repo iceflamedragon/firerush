@@ -8,7 +8,10 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <termios.h>
-
+#include <sstream>
+#include <iomanip>
+#include <string>
+#include <iostream>
 class DepthSubscriber : public rclcpp::Node {
  public:
   DepthSubscriber() : Node("depth_subscriber") {
@@ -30,7 +33,9 @@ class DepthSubscriber : public rclcpp::Node {
   }
 
  private:
-  void listener_callback(const sensor_msgs::msg::PointCloud2::SharedPtr msg) {
+  int arm_x = 0;
+  int arm_y = 0;
+  void listener_callback(const sensor_msgs::msg::PointCloud2::SharedPtr msg) {  // 深度相机的回调函数
     // 输出图像的行数和列数
     // 使用PointCloud2Iterator遍历点云数据
     sensor_msgs::PointCloud2ConstIterator<float> iter_x(*msg, "x");
@@ -61,9 +66,12 @@ class DepthSubscriber : public rclcpp::Node {
 
     // 打印目标点的z值
     RCLCPP_INFO(this->get_logger(), "Origin point z value: %f", *iter_z);
+    RCLCPP_INFO(this->get_logger(), "arm_x: %d", arm_x);
     auto depth_msg = std::make_shared<std_msgs::msg::Float64MultiArray>();
-    depth_msg->data = {100, 0, 1500};  // 发布 x, y, z 三个数字
+    depth_msg->data = {500, 10 * arm_x, 1500};  // 发布 x, y, z 三个数字
     publisher_->publish(*depth_msg);
+    RCLCPP_INFO(this->get_logger(), "Published depth info: %f, %f, %f", depth_msg->data[0],
+                depth_msg->data[1], depth_msg->data[2]);
 
     // for (size_t i = 0; i < msg->width * msg->height; ++i, ++iter_x, ++iter_y, ++iter_z) {
     //   float x = *iter_x;
@@ -104,6 +112,58 @@ class DepthSubscriber : public rclcpp::Node {
 
   void serial_callback(const std_msgs::msg::String::SharedPtr msg) {
     RCLCPP_INFO(this->get_logger(), "Received serial data: %s", msg->data.c_str());
+
+    // 提取坐标部分
+    size_t start_index = msg->data.find("(");
+    size_t end_index = msg->data.find(")");
+    if (start_index == std::string::npos || end_index == std::string::npos) {
+      RCLCPP_ERROR(this->get_logger(), "Invalid coordinates format in message: %s",
+                   msg->data.c_str());
+      return;
+    }
+    std::string coordinates_str = msg->data.substr(start_index + 1, end_index - start_index - 1);
+
+    // 将坐标字符串分割成 x 和 y 坐标
+    std::istringstream coordinates_stream(coordinates_str);
+    std::string x_str, y_str;
+    std::getline(coordinates_stream, x_str, ',');
+    std::getline(coordinates_stream, y_str, ',');
+
+    int flame_center_x_center, flame_center_y_center;
+    try {
+      flame_center_x_center = std::stoi(x_str);
+      flame_center_y_center = std::stoi(y_str);
+    } catch (const std::invalid_argument& e) {
+      RCLCPP_ERROR(this->get_logger(), "Invalid coordinates: %s", coordinates_str.c_str());
+      return;
+    }
+
+    // 提取温度部分
+    start_index = msg->data.find("Temperature: ") + 13;  // "Temperature: " 的长度是 13
+    end_index = msg->data.find(" C");
+    if (start_index == std::string::npos || end_index == std::string::npos) {
+      RCLCPP_ERROR(this->get_logger(), "Invalid temperature format in message: %s",
+                   msg->data.c_str());
+      return;
+    }
+    std::string temperature_str = msg->data.substr(start_index, end_index - start_index);
+
+    double flame_temp;
+    try {
+      flame_temp = std::stod(temperature_str);
+    } catch (const std::invalid_argument& e) {
+      RCLCPP_ERROR(this->get_logger(), "Invalid temperature: %s", temperature_str.c_str());
+      return;
+    }
+
+    // 输出提取的结果
+    // std::cout << "Flame Center: (" << flame_center_x_center << ", " << flame_center_y_center <<
+    // ")"
+    //           << std::endl;
+    // std::cout << "Temperature: " << std::fixed << std::setprecision(2) << flame_temp << " C"
+    //           << std::endl;
+    arm_x = flame_center_x_center;
+    arm_y = flame_center_y_center;
   }
 
   rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_;

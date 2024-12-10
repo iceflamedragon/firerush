@@ -8,7 +8,7 @@ class SerialReaderNode(Node):
         super().__init__('serial_reader_node')
         self.publisher_ = self.create_publisher(String, 'serial_data', 10)
         self.serial_port = '/dev/ttyTHS1'  # 修改为你的串口设备
-        self.baud_rate = 9600  # 修改为你的波特率
+        self.baud_rate = 115200  # 修改为你的波特率
         self.serial_conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1)
         self.timer = self.create_timer(0.1, self.read_serial)
 

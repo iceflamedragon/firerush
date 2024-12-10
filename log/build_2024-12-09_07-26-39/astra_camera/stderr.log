@@ -1,0 +1,9 @@
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In member function ‘[01m[Kvoid DepthSubscriber::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:70:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(10 * ((DepthSubscriber*)this)->DepthSubscriber::arm_x)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   70 |     depth_msg->data = {500, [01;35m[K10 * arm_x[m[K, 1500};  // 发布 x, y, z 三个数字
+      |                             [01;35m[K~~~^~~~~~~[m[K
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:70:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(10 * ((DepthSubscriber*)this)->DepthSubscriber::arm_x)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:[m[K In member function ‘[01m[Kvoid DepthSubscriber::serial_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bingflame/RoArm-M1/src/astra_camera/src/point_cloud_subscriber.cpp:148:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kflame_temp[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  148 |     double [01;35m[Kflame_temp[m[K;
+      |            [01;35m[K^~~~~~~~~~[m[K

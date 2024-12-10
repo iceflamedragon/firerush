@@ -1,8 +1,9 @@
 source install/setup.bash
 sudo chmod 777 /dev/ttyUSB0
+sudo chmod 777 /dev/ttyTHS1
 ros2 launch roarm roarm.launch.py
 ros2 run serial_ctrl serial_ctrl
-
+openmv的图像x(-80,80),y(-60,60)
 
 ros2 run astra_camera point_cloud_subscriber
 ##Starting the camera
